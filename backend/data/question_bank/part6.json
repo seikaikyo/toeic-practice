@@ -1,0 +1,723 @@
+[
+  {
+    "id": "toeic_part6_001",
+    "passage_type": "email",
+    "passage": "Dear Ms. Rivera,\n\nThank you for placing your order with Northgate Office Supplies. We are pleased to inform you that your order #48821 has been _(1)_ and is currently being prepared for shipment.\n\nYour package will contain the following items, _(2)_ two dozen ballpoint pens, three reams of A4 paper, and one desktop organizer. Copies of your invoice and return policy _(3)_ for your records.\n\nWe appreciate your patience while we are _(4)_ your order, which is expected to arrive within three to five business days.\n\nSincerely,\nCustomer Service Team\nNorthgate Office Supplies",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "confirm",
+          "confirmation",
+          "confirmed",
+          "confirming"
+        ],
+        "answer": "confirmed",
+        "explanation": "The verb must be a past participle after \"has been\" (present perfect passive)."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "include",
+          "included",
+          "including",
+          "inclusive"
+        ],
+        "answer": "including",
+        "explanation": "A present participle used as a preposition to introduce a list; \"including\" is not preceded by a comma that would require a finite verb."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "enclosed",
+          "enclose",
+          "are enclosed",
+          "enclosing"
+        ],
+        "answer": "are enclosed",
+        "explanation": "The subject \"Copies\" is plural, so we need the plural verb \"are\"; passive voice is correct because the copies were enclosed by the sender."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "process",
+          "processed",
+          "processing",
+          "to process"
+        ],
+        "answer": "processing",
+        "explanation": "After \"while we are,\" a present participle is required to form the present continuous tense."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_002",
+    "passage_type": "email",
+    "passage": "Dear Team,\n\nI am writing to inform you that due to an _(1)_ scheduling conflict, the quarterly review meeting originally planned for Thursday, March 14 must be postponed.\n\nThe meeting will now take place on Friday, March 22, beginning _(2)_ 10:00 A.M. in Conference Room B on the third floor. A revised agenda _(3)_ to all attendees by end of day Monday.\n\nI sincerely apologize for any _(4)_ this change may cause and thank you for your flexibility.\n\nBest regards,\nDavid Park\nOperations Director",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "avoidable",
+          "unavoidably",
+          "unavoidable",
+          "unavoidance"
+        ],
+        "answer": "unavoidable",
+        "explanation": "An adjective is needed to modify the noun \"scheduling conflict\"; \"unavoidably\" is an adverb, and \"unavoidance\" is not a standard word."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "answer": "at",
+        "explanation": "The correct preposition for a specific clock time in English is \"at\" (e.g., at 10:00 A.M.)."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "send",
+          "sent",
+          "will be sent",
+          "has sent"
+        ],
+        "answer": "will be sent",
+        "explanation": "The future passive is correct because the agenda will be sent by someone (the director) to attendees; the action happens in the future."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "inconvenience",
+          "inconvenient",
+          "inconveniently",
+          "inconveniencing"
+        ],
+        "answer": "inconvenience",
+        "explanation": "A noun is needed after \"any\"; the adjective \"inconvenient\" and the adverb \"inconveniently\" do not fit this position."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_003",
+    "passage_type": "email",
+    "passage": "Dear Mr. Okafor,\n\nWe are _(1)_ to offer you the position of Senior Marketing Analyst at Meridian Global Solutions. After careful consideration, our hiring committee agreed that your experience and qualifications make you the ideal candidate.\n\nYour employment will be on a full-time basis, _(2)_ on April 1. You will receive a _(3)_ salary package along with comprehensive health benefits and an annual performance bonus.\n\nPlease confirm your _(4)_ of this offer by replying to this email no later than March 10.\n\nWarm regards,\nLinda Marsh\nHuman Resources Manager",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "delight",
+          "delightful",
+          "delightedly",
+          "delighted"
+        ],
+        "answer": "delighted",
+        "explanation": "After a linking verb (\"are\"), a predicate adjective is required; \"delighted\" describes the subject's emotional state. \"Delightful\" would mean the subject is charming to others, which is the wrong meaning here."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "commence",
+          "commenced",
+          "commencing",
+          "commencement"
+        ],
+        "answer": "commencing",
+        "explanation": "A present participle is used here as a reduced relative clause modifying \"employment\" (employment that commences on April 1)."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "compete",
+          "competing",
+          "competition",
+          "competitive"
+        ],
+        "answer": "competitive",
+        "explanation": "An adjective is needed to modify the noun \"salary package\"; the other options are a verb, verb form, and noun."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "accept",
+          "acceptable",
+          "acceptance",
+          "acceptably"
+        ],
+        "answer": "acceptance",
+        "explanation": "A noun is needed after the possessive pronoun \"your\"; \"accept\" is a verb, \"acceptable\" is an adjective."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_004",
+    "passage_type": "email",
+    "passage": "Dear Ms. Thornton,\n\nI am happy to report that the Lakeside Renovation Project remains _(1)_ despite the unexpected supply delays we faced in January. Our contractors have made excellent progress and the structural work is now 80% complete.\n\nThe project timeline _(2)_ to reflect the addition of a solar panel installation phase, which was approved at last week's board meeting. The updated Gantt chart is attached for your reference.\n\nPlease review the revised schedule and contact me _(3)_ the next steering committee meeting if you have any questions or concerns.\n\nRegards,\nTomás Reyes\nProject Manager",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "in schedule",
+          "on schedule",
+          "by schedule",
+          "at schedule"
+        ],
+        "answer": "on schedule",
+        "explanation": "\"On schedule\" is the fixed prepositional phrase meaning progressing as planned. \"In schedule\" and \"at schedule\" are not standard expressions."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "revise",
+          "revised",
+          "has been revised",
+          "have been revised"
+        ],
+        "answer": "has been revised",
+        "explanation": "The subject \"timeline\" is singular, so \"have been revised\" is wrong. The present perfect passive \"has been revised\" indicates the revision happened recently with a current result."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "prior to",
+          "prior than",
+          "previously",
+          "before of"
+        ],
+        "answer": "prior to",
+        "explanation": "\"Prior to\" is a prepositional phrase meaning \"before.\" \"Prior than\" is grammatically incorrect; \"previously\" is an adverb that cannot precede a noun phrase; \"before of\" is non-standard."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_005",
+    "passage_type": "email",
+    "passage": "Dear Mr. Fenton,\n\nThank you for contacting us _(1)_ the damaged shipment you received on February 3. We sincerely apologize for the experience and assure you that this does not reflect our usual standards.\n\nOur quality control team has _(2)_ reviewed the incident and determined that the damage occurred during transit due to improper packaging by our warehouse staff. We are taking immediate steps to prevent this from happening again.\n\nWe would like to offer you a full _(3)_ of the defective items at no additional cost. Please allow five to seven business days for the new items to arrive. Alternatively, we can issue a complete refund if you prefer.\n\nWe are committed to doing everything possible to _(4)_ this matter to your satisfaction.\n\nSincerely,\nCarla Nguyen\nCustomer Relations",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "regard",
+          "regards",
+          "regarding",
+          "regarded"
+        ],
+        "answer": "regarding",
+        "explanation": "A preposition is needed to connect the verb \"contacting\" to the noun phrase that follows; \"regarding\" functions as a preposition meaning \"about\" or \"concerning.\""
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "thorough",
+          "thoroughness",
+          "thoroughly",
+          "more thoroughly"
+        ],
+        "answer": "thoroughly",
+        "explanation": "An adverb is needed to modify the verb \"reviewed\"; \"thorough\" is an adjective, and \"thoroughness\" is a noun."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "replace",
+          "replacing",
+          "replaced",
+          "replacement"
+        ],
+        "answer": "replacement",
+        "explanation": "A noun is needed after the article \"a\"; \"replace\" is a verb, \"replacing\" is a gerund/participle."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "resolve",
+          "resolved",
+          "resolving",
+          "resolution"
+        ],
+        "answer": "resolve",
+        "explanation": "After a modal verb (\"to\"), the base form of the verb is required. \"Resolved\" is past tense, \"resolving\" is a participle, and \"resolution\" is a noun."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_006",
+    "passage_type": "memo",
+    "passage": "TO: All Employees\nFROM: Human Resources Department\nSUBJECT: Updated Remote Work Policy\nDATE: March 1\n\nPlease be advised that a revised remote work policy will be _(1)_ beginning April 1 of this year.\n\nUnder the new guidelines, all employees _(2)_ their department or seniority level will be permitted to work remotely a maximum of two days per week. Days must be pre-approved by your direct supervisor at least 48 hours in advance.\n\nEmployees who wish to work remotely _(3)_ to submit a Remote Work Request Form through the internal HR portal. Requests submitted after the 48-hour deadline will not be considered.\n\nPlease note that attendance policies will continue to be _(4)_ enforced, and repeated violations may result in disciplinary action.\n\nFor questions, contact the HR department at extension 204.",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "effect",
+          "effectively",
+          "effectiveness",
+          "effective"
+        ],
+        "answer": "effective",
+        "explanation": "A predicate adjective following \"will be\" is needed; \"effective beginning [date]\" is a fixed business expression meaning the policy takes effect on that date."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "regardless",
+          "regardless of",
+          "despite of",
+          "in spite"
+        ],
+        "answer": "regardless of",
+        "explanation": "This is the correct prepositional phrase; \"despite of\" is non-standard (correct form is simply \"despite\"); \"in spite\" must be followed by \"of\" to be complete."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "require",
+          "required",
+          "are required",
+          "requiring"
+        ],
+        "answer": "are required",
+        "explanation": "The subject \"Employees\" is plural; passive voice is correct because the policy requires them (they do not require themselves)."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "strict",
+          "stricter",
+          "strictness",
+          "strictly"
+        ],
+        "answer": "strictly",
+        "explanation": "An adverb is needed to modify the past participle \"enforced\"; \"strict\" is an adjective, \"stricter\" is a comparative adjective."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_007",
+    "passage_type": "memo",
+    "passage": "TO: All Staff, Finance Division\nFROM: Office Administration\nSUBJECT: Office Relocation — Action Required\nDATE: February 20\n\nThis memo is to inform you that the Finance Division's _(1)_ office space will move from the fourth floor to the newly renovated sixth floor, effective Monday, March 10.\n\nAll personal belongings, files, and equipment _(2)_ to new workstations over the weekend of March 8–9. Movers contracted by the company will handle all furniture and shared equipment. Employees are asked to label personal boxes clearly with their name and new desk assignment.\n\nWe understand this transition may cause some temporary _(3)_ to your workflows, and we appreciate your cooperation. IT support will be on hand throughout the move weekend to reconnect computers and peripherals.\n\nPlease direct any questions to admin@financegroup.com.",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "permanence",
+          "permanently",
+          "permanent",
+          "permitting"
+        ],
+        "answer": "permanent",
+        "explanation": "An adjective is needed to modify the noun \"office space\"; \"permanence\" is a noun and \"permanently\" is an adverb."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "relocate",
+          "relocated",
+          "will be relocated",
+          "have relocated"
+        ],
+        "answer": "will be relocated",
+        "explanation": "The future passive is correct; the subject \"belongings, files, and equipment\" will be acted upon (moved) by the movers, not acting themselves. Future tense is appropriate because the move has not happened yet."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "disrupt",
+          "disrupting",
+          "disruptive",
+          "disruption"
+        ],
+        "answer": "disruption",
+        "explanation": "A noun is needed after the article \"a\" and the adjective \"temporary\"; \"disrupt\" is a verb, \"disrupting\" is a participle, \"disruptive\" is an adjective."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_008",
+    "passage_type": "memo",
+    "passage": "TO: All Staff\nFROM: Sandra Liu, CEO\nSUBJECT: Welcome — New Chief Technology Officer\nDATE: March 5\n\nI am very pleased to announce that Dr. Marcus Webb will be _(1)_ our executive team as Chief Technology Officer (CTO) starting March 18.\n\nDr. Webb brings _(2)_ experience in software architecture and cybersecurity, having led technology transformation projects at three Fortune 500 companies over the past fifteen years. His most recent role was VP of Engineering at Skyline Technologies.\n\nIn his new role, Dr. Webb will _(3)_ the executive board and will oversee all technology strategy, infrastructure, and innovation initiatives.\n\nPlease join me in making Dr. Webb feel welcome. Department heads are encouraged to schedule brief introductory meetings to help him _(4)_ himself with our current projects.\n\nSandra Liu\nChief Executive Officer",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "join",
+          "joined",
+          "joining",
+          "to joined"
+        ],
+        "answer": "joining",
+        "explanation": "After \"will be,\" a present participle is needed to form the future continuous tense (will be joining)."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "extend",
+          "extending",
+          "extension",
+          "extensive"
+        ],
+        "answer": "extensive",
+        "explanation": "An adjective is needed to modify the noun \"experience\"; \"extend\" is a verb, \"extending\" is a participle, \"extension\" is a noun."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "report to",
+          "report for",
+          "reports to",
+          "reporting for"
+        ],
+        "answer": "report to",
+        "explanation": "The base form is needed after the modal auxiliary \"will\"; \"report to\" is the correct phrasal verb meaning to be responsible to someone. \"Report for\" means to arrive for duty, which is not the intended meaning."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "familiar",
+          "familiarity",
+          "familiarize",
+          "familiarized"
+        ],
+        "answer": "familiarize",
+        "explanation": "After the causative \"help him,\" the base form or infinitive is used; \"familiarize himself with\" is the correct reflexive phrasal verb pattern."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_009",
+    "passage_type": "notice",
+    "passage": "ATTENTION: Building Residents and Tenants\n\nPlease be advised that elevator maintenance work is scheduled for Wednesday, April 9, from 7:00 A.M. to 5:00 P.M. During this time, elevators 1 and 2 on the east side of the building will be _(1)_ out of service.\n\nElevator 3 on the west side will remain operational throughout the _(2)_ of the maintenance. Residents who require assistance accessing upper floors should contact the building management office in advance so arrangements can be made.\n\nWe _(3)_ any inconvenience this may cause and thank you for your understanding as we work to keep our facilities in excellent condition.\n\nBuilding Management\nHarbor View Towers",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "temporary",
+          "temporariness",
+          "temporizing",
+          "temporarily"
+        ],
+        "answer": "temporarily",
+        "explanation": "An adverb is needed to modify the adjective \"out of service\"; \"temporary\" is an adjective that would need a noun to modify."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "during",
+          "duration",
+          "durable",
+          "durably"
+        ],
+        "answer": "duration",
+        "explanation": "A noun is needed after the article \"the\"; \"during\" is a preposition (not a noun), \"durable\" is an adjective, \"durably\" is an adverb. The phrase \"for the duration of\" means throughout the entire period."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "apologize",
+          "apologize for",
+          "apologize with",
+          "apology"
+        ],
+        "answer": "apologize for",
+        "explanation": "The verb \"apologize\" requires the preposition \"for\" before its object (\"any inconvenience\"). \"Apologize with\" is incorrect, and \"apology\" is a noun that would need \"offer\" or \"make\" before it."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_010",
+    "passage_type": "notice",
+    "passage": "NOTICE: Holiday Business Hours\n\nPlease note that Clearwater Financial Services will operate under _(1)_ hours from December 24 through January 2.\n\n_(2)_ this period, our main branch will be open from 9:00 A.M. to 1:00 P.M. Monday through Friday. The branch will be closed on December 25, December 26, January 1, and January 2 in observance of public holidays.\n\nCustomers _(3)_ to use our 24-hour online banking portal and mobile app for routine transactions during the holiday season. Our ATMs will remain fully operational throughout this period.\n\nFor urgent matters that cannot be handled online, please call our customer support line at 1-800-555-0190. _(4)_, our standard business hours will resume on Monday, January 5.\n\nWe wish all our customers a joyful holiday season.",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "modify",
+          "modification",
+          "modified",
+          "modifying"
+        ],
+        "answer": "modified",
+        "explanation": "An adjective (past participle used attributively) is needed to modify \"hours\"; \"modify\" is a base verb, \"modification\" is a noun, \"modifying\" is a present participle used for active action."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "For",
+          "During",
+          "While",
+          "Throughout of"
+        ],
+        "answer": "during",
+        "explanation": "\"During\" is the correct preposition to introduce a noun phrase time period (\"this period\"). \"While\" introduces a clause with a subject and verb. \"Throughout of\" is non-standard; the correct form is \"throughout\" alone."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "encourage",
+          "encouraged",
+          "are encouraged",
+          "encouraging"
+        ],
+        "answer": "are encouraged",
+        "explanation": "The passive voice is needed because customers are being encouraged by the company. The subject \"Customers\" is plural, so \"is encouraged\" would be wrong."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "However",
+          "Moreover",
+          "Otherwise",
+          "Therefore"
+        ],
+        "answer": "otherwise",
+        "explanation": "\"Otherwise\" signals a contrasting condition (if you do not call for urgent matters, then normal hours resume). \"However\" introduces a contrasting fact. \"Moreover\" adds information. \"Therefore\" shows a result."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_011",
+    "passage_type": "notice",
+    "passage": "PARKING REGULATIONS — WESTBROOK CORPORATE CENTER\n\nAll vehicles parked on Westbrook Corporate Center property must display a valid parking permit at all times. Parking without a permit is strictly _(1)_ and may result in the vehicle being towed at the owner's expense.\n\nVisitors must park only in _(2)_ visitor spaces marked with blue signage on Level 1. Employee spaces on Levels 2 through 5 are reserved exclusively for permit holders and are color-coded by department.\n\n_(3)_ comply with these regulations will result in a written warning for the first offense and vehicle towing for subsequent violations.\n\nPermits may be obtained from the security office on Level 1 between 8:00 A.M. and 4:00 P.M., Monday through Friday.\n\nWestbrook Facilities Management",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "prohibit",
+          "prohibition",
+          "prohibited",
+          "prohibitive"
+        ],
+        "answer": "prohibited",
+        "explanation": "A past participle is needed after the adverb \"strictly\" to complete the passive predicate \"is strictly prohibited.\" \"Prohibitive\" means excessively high in cost, which is the wrong meaning."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "designate",
+          "designation",
+          "designating",
+          "designated"
+        ],
+        "answer": "designated",
+        "explanation": "A past participle used as an adjective is needed to modify \"visitor spaces\"; \"designate\" is a base verb, \"designation\" is a noun, \"designating\" is an active participle."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "Failure to",
+          "Failing",
+          "To fail",
+          "Failed"
+        ],
+        "answer": "failure to",
+        "explanation": "The noun phrase \"Failure to + base verb\" is a common formal pattern for stating consequences; it functions as the subject of the sentence. \"Failing\" would also work grammatically but \"Failure to comply\" is the standard formal register used in notices."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_012",
+    "passage_type": "letter",
+    "passage": "Dear Hiring Committee,\n\nIt is my honor to recommend Ms. Yuki Tanaka for the position of Regional Sales Manager at your organization. I have had the privilege of supervising Ms. Tanaka for six years and can say with confidence that she is among the _(1)_ caliber professionals I have worked with in my career.\n\nMs. Tanaka has _(2)_ exceeded her quarterly targets, averaging 127% of her assigned quota over the past three years. Her ability to build long-term client relationships and mentor junior staff has been invaluable to our team's growth.\n\nI am certain that Ms. Tanaka _(3)_ an exceptional addition to your organization. Her dedication, strategic thinking, and leadership skills are qualities that any team would benefit from.\n\nPlease do not _(4)_ to contact me at d.walsh@meridiangroup.com if you would like to discuss her qualifications further.\n\nSincerely,\nDaniel Walsh\nVice President, Sales",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "high",
+          "higher",
+          "highest",
+          "highly"
+        ],
+        "answer": "highest",
+        "explanation": "The superlative is needed because the comparison is within a defined group (all professionals the writer has worked with). The article \"the\" before the blank is another signal of a superlative."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "consistent",
+          "consistency",
+          "consistently",
+          "more consistently"
+        ],
+        "answer": "consistently",
+        "explanation": "An adverb is needed to modify the verb \"exceeded\"; \"consistent\" is an adjective, \"consistency\" is a noun."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "make",
+          "makes",
+          "would make",
+          "has made"
+        ],
+        "answer": "would make",
+        "explanation": "The conditional \"would make\" expresses a polite prediction or strong belief about a hypothetical future; it is the standard form used in recommendation letters to signal certainty without overcommitting."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "hesitate",
+          "hesitated",
+          "hesitating",
+          "hesitation"
+        ],
+        "answer": "hesitate",
+        "explanation": "After \"do not,\" the base form of the verb is required. \"Please do not hesitate to contact me\" is a fixed formal closing phrase."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_013",
+    "passage_type": "letter",
+    "passage": "Dear Mr. Nakamura,\n\nWe are _(1)_ to inform you that Brightwave Logistics would like to renew our service agreement with Nakamura Import Co., Ltd. for an additional two-year term.\n\nThe _(2)_ contract will take effect on July 1 and will cover all freight forwarding and customs clearance services as outlined in the original agreement signed in 2022.\n\nAll terms and conditions will remain unchanged _(3)_ the original contract, with the exception of a 3% service rate adjustment to reflect current market conditions. A revised fee schedule is attached for your review.\n\nWe trust that this continued partnership will remain _(4)_ beneficial. Please sign and return the enclosed contract by May 31 to confirm your agreement.\n\nYours faithfully,\nAngela Torres\nBusiness Development Director\nBrightwave Logistics",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "pleasing",
+          "please",
+          "pleasantly",
+          "pleased"
+        ],
+        "answer": "pleased",
+        "explanation": "After \"are,\" a predicate adjective describing the subject's emotional state is needed. \"Pleasing\" describes something that gives pleasure to others, not the subject's feeling. \"Please\" is a verb or interjection."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "renew",
+          "renewal",
+          "renewed",
+          "renewing"
+        ],
+        "answer": "renewed",
+        "explanation": "A past participle used as an adjective is needed to modify \"contract\"; the contract has been renewed, so the adjective form \"renewed\" is correct. \"Renewal\" is a noun."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "in accordance with",
+          "according",
+          "in accordance to",
+          "accorded with"
+        ],
+        "answer": "in accordance with",
+        "explanation": "This is the correct fixed prepositional phrase meaning \"following the rules of\" something. \"In accordance to\" is non-standard; \"according\" alone requires \"to\" and typically modifies a source of information, not a governing document in this legal sense."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "mutual",
+          "mutually",
+          "mutuality",
+          "mutualize"
+        ],
+        "answer": "mutually",
+        "explanation": "An adverb is needed to modify the adjective \"beneficial\"; \"mutual\" is an adjective that would modify a noun, \"mutuality\" is a noun."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_014",
+    "passage_type": "advertisement",
+    "passage": "JOB OPPORTUNITY: Marketing Coordinator\nPinnacle Media Group — Tokyo Office\n\nPinnacle Media Group, a leading digital marketing agency operating across twelve countries, is currently _(1)_ a talented and driven Marketing Coordinator to join our Tokyo office.\n\nThe ideal candidate will have a bachelor's degree in Marketing, Communications, or a related field, and at least two years of relevant experience. _(2)_ in both English and Japanese is essential, as this role involves regular communication with international clients.\n\nWe offer a _(3)_ salary, flexible working hours, generous annual leave, and opportunities for career advancement within our global network.\n\nInterested candidates are invited to _(4)_ a resume and cover letter to careers@pinnacleMG.com by April 30. Only shortlisted applicants will be contacted.",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "seek",
+          "sought",
+          "seeks",
+          "seeking"
+        ],
+        "answer": "seeking",
+        "explanation": "After \"is currently,\" a present participle is needed to form the present continuous tense (is seeking). The company is the subject actively doing the seeking."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "Proficient",
+          "Proficiency",
+          "Proficiently",
+          "Proficiencies"
+        ],
+        "answer": "proficiency",
+        "explanation": "A noun is needed to serve as the subject of the sentence; \"Proficient\" is an adjective, \"Proficiently\" is an adverb. Note that \"proficiency in\" is the standard collocation."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "compete",
+          "competing",
+          "competition",
+          "competitive"
+        ],
+        "answer": "competitive",
+        "explanation": "An adjective is needed to modify \"salary\"; \"compete\" is a verb, \"competing\" is a participle, \"competition\" is a noun."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "submitting",
+          "submitted",
+          "submit",
+          "submission"
+        ],
+        "answer": "submit",
+        "explanation": "After \"are invited to,\" the base form of the verb is required (infinitive structure: invited + to + base verb). \"Submitting\" would require \"are invited\" to become \"are invited\" + gerund, which is not standard."
+      }
+    ]
+  },
+  {
+    "id": "toeic_part6_015",
+    "passage_type": "advertisement",
+    "passage": "Introducing the AquaPure Pro — Redefining Clean Water at Home\n\nAquaPure Technologies is proud to present its most _(1)_ water purification system to date. The AquaPure Pro combines cutting-edge filtration technology with a sleek, space-saving design that fits seamlessly into any kitchen.\n\nThis system _(2)_ a seven-stage filtration process that removes over 99.9% of contaminants, including heavy metals, chlorine, and microplastics, while preserving essential minerals for optimal taste.\n\nThe AquaPure Pro is now _(3)_ at authorized retailers nationwide and through our official website at www.aquapuretech.com. Installation is straightforward and can be completed in under thirty minutes without professional assistance.\n\nFor a _(4)_ time only, customers who purchase before May 31 will receive a complimentary two-year filter replacement package valued at $120.\n\nOrder today and experience the difference.",
+    "questions": [
+      {
+        "blank_number": 1,
+        "options": [
+          "innovate",
+          "innovation",
+          "innovatively",
+          "innovative"
+        ],
+        "answer": "innovative",
+        "explanation": "A superlative adjective phrase (\"most innovative\") is needed to modify \"water purification system\"; \"innovate\" is a verb, \"innovation\" is a noun, \"innovatively\" is an adverb."
+      },
+      {
+        "blank_number": 2,
+        "options": [
+          "feature",
+          "features",
+          "featured",
+          "featuring"
+        ],
+        "answer": "features",
+        "explanation": "A third-person singular present tense verb is needed; the subject is \"system\" (singular) and the sentence is a factual statement about what the product does. \"Featured\" (past tense/adjective) and \"featuring\" (participle) do not fit a main clause needing a finite verb."
+      },
+      {
+        "blank_number": 3,
+        "options": [
+          "availability",
+          "availably",
+          "available",
+          "availing"
+        ],
+        "answer": "available",
+        "explanation": "A predicate adjective after the linking verb \"is\" is needed; \"availability\" is a noun, \"availably\" is not a standard word."
+      },
+      {
+        "blank_number": 4,
+        "options": [
+          "limit",
+          "limitation",
+          "limited",
+          "limiting"
+        ],
+        "answer": "limited",
+        "explanation": "\"For a limited time only\" is a fixed marketing expression; \"limited\" is a past participle used as an adjective. \"Limiting\" would mean the time is restricting something, which reverses the meaning."
+      }
+    ]
+  }
+]

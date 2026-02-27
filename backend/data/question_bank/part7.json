@@ -1,0 +1,487 @@
+[
+  {
+    "id": "toeic_part7_001",
+    "passage_type": "email",
+    "passage": "From: Jennifer Walsh <j.walsh@techcorp.com>\nTo: All Staff\nDate: March 15\nSubject: Office Renovation Schedule\n\nDear colleagues,\n\nI am writing to inform you that the third-floor conference rooms will be undergoing renovation starting April 1. The work is expected to be completed by April 20. During this period, please use the second-floor meeting rooms for all scheduled meetings.\n\nIf you have events booked in the third-floor rooms, please contact facilities@techcorp.com to arrange alternative spaces. We apologize for any inconvenience this may cause and appreciate your patience.\n\nBest regards,\nJennifer Walsh\nFacilities Manager",
+    "questions": [
+      {
+        "question": "What is the purpose of this email?",
+        "options": [
+          "To announce new meeting room policies",
+          "To request staff feedback on the renovation design",
+          "To inform staff about upcoming construction work",
+          "To introduce the new facilities manager"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "What should employees do if they have meetings booked in the third-floor rooms?",
+        "options": [
+          "Contact the facilities department for alternative arrangements",
+          "Cancel their meetings until April 20",
+          "Move their meetings to the first floor independently",
+          "Wait for further instructions from Jennifer Walsh"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_002",
+    "passage_type": "email",
+    "passage": "From: Marcus Lee <m.lee@starbuyer.net>\nTo: customerservice@OfficeSuppliesPlus.com\nDate: June 3\nSubject: Order #OS-7742 — Delayed Shipment\n\nTo Whom It May Concern,\n\nI placed an order on May 25 for a set of ergonomic office chairs (Order #OS-7742) with an estimated delivery of May 31. It is now June 3 and the items have not arrived. I checked the tracking page on your website, but the status has shown \"In Transit\" for the past five days without any update.\n\nCould you please investigate the issue and provide an updated delivery estimate? If the order cannot be delivered by June 10, I would like to request a full refund. My contact number is 555-0192.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\nMarcus Lee",
+    "questions": [
+      {
+        "question": "Why did Marcus Lee write this email?",
+        "options": [
+          "To place a new order for office furniture",
+          "To report a problem with a delayed shipment",
+          "To request a product catalog from the company",
+          "To cancel an order he no longer needs"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What does Marcus Lee say about the tracking page?",
+        "options": [
+          "It shows the order has already been delivered",
+          "It is not loading properly on his computer",
+          "It shows the order was cancelled",
+          "It has not been updated for several days"
+        ],
+        "answer": 4
+      },
+      {
+        "question": "What will Marcus Lee do if the order does not arrive by June 10?",
+        "options": [
+          "Ask for a complete refund",
+          "Reorder the same items from a different supplier",
+          "Visit the company's physical store",
+          "Accept a partial delivery"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_003",
+    "passage_type": "email",
+    "passage": "From: Clara Nguyen <c.nguyen@innovatehub.org>\nTo: Alumni Members\nDate: September 8\nSubject: Annual Networking Gala — Save the Date\n\nDear Alumni,\n\nWe are delighted to invite you to the InnovateHub Annual Networking Gala, to be held on October 14 at the Grand Riverside Hotel, Ballroom A, starting at 6:30 P.M.\n\nThis year's event will feature a keynote address by Dr. Patricia Holm, CEO of FuturePath Ventures, followed by a panel discussion on emerging trends in sustainable technology. Dinner and cocktails will be provided.\n\nSpaces are limited. Please RSVP by September 30 by visiting our event portal at events.innovatehub.org or by replying directly to this email. Tickets are complimentary for current members; non-members may attend at a fee of $75.\n\nWe look forward to seeing you there.\n\nWarm regards,\nClara Nguyen\nEvents Coordinator, InnovateHub",
+    "questions": [
+      {
+        "question": "What is the main purpose of this email?",
+        "options": [
+          "To announce a change in membership fees",
+          "To introduce a new CEO to the alumni network",
+          "To report on last year's gala results",
+          "To invite alumni to an upcoming event"
+        ],
+        "answer": 4
+      },
+      {
+        "question": "What is indicated about non-members who wish to attend?",
+        "options": [
+          "They are not permitted to attend the gala",
+          "They must pay a fee to participate",
+          "They should contact Dr. Patricia Holm directly",
+          "They will receive a complimentary ticket if they register early"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_004",
+    "passage_type": "email",
+    "passage": "From: Sandra Park <s.park@mailbox.com>\nTo: support@freshblend.com\nDate: November 19\nSubject: Unsatisfactory Product Experience\n\nDear FreshBlend Support Team,\n\nI am writing to express my disappointment with the FreshBlend Pro 3000 blender I purchased three weeks ago from your online store. After using it fewer than ten times, the motor began making a loud grinding noise and the unit stopped operating entirely.\n\nI followed the setup instructions carefully and did not misuse the appliance. I have attached a short video of the malfunction for your reference. I would like either a replacement unit or a full refund of the purchase price ($149.99).\n\nPlease let me know how you intend to resolve this matter within five business days. If I do not hear back, I will dispute the charge with my credit card provider.\n\nRegards,\nSandra Park",
+    "questions": [
+      {
+        "question": "What is the main reason Sandra Park contacted FreshBlend?",
+        "options": [
+          "Her blender stopped working after limited use",
+          "She received the wrong product model",
+          "She was charged an incorrect amount",
+          "The blender was damaged during shipping"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What did Sandra Park include with her email?",
+        "options": [
+          "A copy of the original receipt",
+          "The blender's serial number",
+          "A video showing the problem",
+          "A written repair request form"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "What does Sandra Park threaten to do if she does not receive a response?",
+        "options": [
+          "Return the product to the physical store",
+          "Dispute the charge with her credit card company",
+          "Post a negative review online",
+          "File a complaint with a consumer protection agency"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_005",
+    "passage_type": "advertisement",
+    "passage": "**NOW HIRING: Senior Marketing Analyst**\n*Vertex Digital Solutions — San Francisco, CA*\n\nVertex Digital Solutions, a leader in data-driven marketing technology, is seeking an experienced Senior Marketing Analyst to join our growing team.\n\n**Responsibilities:**\n- Develop and manage digital marketing campaigns across multiple platforms\n- Analyze campaign performance data and present findings to senior leadership\n- Collaborate with the product and sales teams to align marketing strategies\n\n**Requirements:**\n- Bachelor's degree in Marketing, Business, or a related field\n- Minimum 5 years of experience in digital marketing analytics\n- Proficiency in Google Analytics, Tableau, or similar tools\n- Strong written and verbal communication skills\n\n**What We Offer:**\n- Competitive salary ($90,000–$115,000 depending on experience)\n- Comprehensive health and dental benefits\n- Flexible remote work options (up to 3 days per week)\n- Annual performance bonus\n\nTo apply, submit your resume and a cover letter to careers@vertexdigital.com by December 15.",
+    "questions": [
+      {
+        "question": "What is one requirement listed for this position?",
+        "options": [
+          "A graduate degree in computer science",
+          "Experience working in a startup environment",
+          "At least five years in digital marketing analytics",
+          "Certification in project management"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "What benefit does Vertex Digital Solutions offer regarding work location?",
+        "options": [
+          "The option to work remotely up to three days per week",
+          "A fully remote work arrangement from any country",
+          "A company-provided home office setup",
+          "Relocation assistance to San Francisco"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_006",
+    "passage_type": "advertisement",
+    "passage": "**Introducing the PolarMax Insulated Travel Mug**\n\nKeep your beverages at the perfect temperature — all day long.\n\nThe PolarMax Travel Mug uses next-generation double-wall vacuum insulation to keep drinks hot for up to 12 hours and cold for up to 24 hours. Its leak-proof lid and durable stainless steel construction make it ideal for commuters, hikers, and office professionals alike.\n\n**Key Features:**\n- 500ml capacity\n- BPA-free, food-grade stainless steel\n- Fits standard car cup holders\n- Dishwasher safe\n- Available in 8 colors\n\n**Limited-Time Offer:** Purchase any PolarMax mug before January 31 and receive a free PolarMax insulated sleeve (valued at $12) with your order.\n\nOrder at www.polarmax.com or find us at major retailers nationwide.\n\n*\"The only travel mug I've used that actually keeps my coffee hot until lunch.\" — verified buyer*",
+    "questions": [
+      {
+        "question": "According to the advertisement, how long can the PolarMax mug keep a cold drink cold?",
+        "options": [
+          "8 hours",
+          "24 hours",
+          "12 hours",
+          "48 hours"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What will customers receive if they buy the mug before January 31?",
+        "options": [
+          "A discount on their next purchase",
+          "Free shipping on all orders",
+          "A second mug at half price",
+          "A complimentary insulated sleeve"
+        ],
+        "answer": 4
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_007",
+    "passage_type": "advertisement",
+    "passage": "**CloudVault Pro — Secure Business Storage, Simplified**\n\nIs your company still relying on outdated local servers? CloudVault Pro offers enterprise-grade cloud storage with military-level encryption, 99.9% uptime, and 24/7 technical support — all at a price designed for small and medium businesses.\n\n**Plans Starting From $29/month (billed annually)**\n\n| Plan | Storage | Users | Support |\n|------|---------|-------|---------|\n| Starter | 500 GB | Up to 5 | Email only |\n| Business | 2 TB | Up to 25 | Email + Phone |\n| Enterprise | Unlimited | Unlimited | Dedicated manager |\n\nSwitch before March 31 and receive three months free on any annual plan. Migration assistance is included at no additional cost.\n\nVisit cloudvaultpro.com or call 1-800-555-0247 to schedule a free demo.",
+    "questions": [
+      {
+        "question": "What type of businesses does CloudVault Pro primarily target?",
+        "options": [
+          "Small and medium-sized businesses",
+          "Government agencies and public institutions",
+          "Large multinational corporations",
+          "Individual freelancers and contractors"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What does the Business plan include that the Starter plan does not?",
+        "options": [
+          "Unlimited storage capacity",
+          "Access to the migration assistance program",
+          "Phone support in addition to email support",
+          "A dedicated account manager"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "The word \"migration\" in the advertisement is closest in meaning to:",
+        "options": [
+          "Subscription",
+          "Transfer",
+          "Installation",
+          "Upgrade"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_008",
+    "passage_type": "article",
+    "passage": "**GlobalBridge Acquires Singapore-Based Logistics Firm**\n*Business Today, February 10*\n\nGlobalBridge Holdings announced Monday that it has completed the acquisition of SingaFreight Logistics for an undisclosed sum. The deal, which was first reported last November, is expected to significantly expand GlobalBridge's footprint in Southeast Asia.\n\nSingaFreight, founded in 2008, operates a fleet of over 200 cargo vehicles and manages warehousing facilities in Singapore, Malaysia, and Indonesia. GlobalBridge CEO Robert Tanaka stated that the acquisition aligns with the company's five-year plan to become a top-five logistics provider in the Asia-Pacific region.\n\n\"This partnership brings us closer to our customers across one of the world's fastest-growing trade corridors,\" Tanaka said at a press conference in Singapore.\n\nSingaFreight's existing management team will remain in place through the transition period, which is expected to last approximately 12 months.",
+    "questions": [
+      {
+        "question": "What is the main topic of this article?",
+        "options": [
+          "GlobalBridge's expansion into the European market",
+          "GlobalBridge's purchase of a logistics company",
+          "SingaFreight's new warehousing facilities",
+          "A merger between two Singapore-based firms"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What can be inferred about SingaFreight from the article?",
+        "options": [
+          "It was previously owned by Robert Tanaka",
+          "It plans to relocate its headquarters to GlobalBridge's home country",
+          "It recently expanded into Vietnam and Thailand",
+          "It operates in more than one country in Southeast Asia"
+        ],
+        "answer": 4
+      },
+      {
+        "question": "According to the article, what will happen to SingaFreight's management team?",
+        "options": [
+          "They will stay on during the transition period",
+          "They will be replaced by GlobalBridge executives immediately",
+          "They will relocate to GlobalBridge's headquarters",
+          "They will receive a share of the acquisition proceeds"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_009",
+    "passage_type": "article",
+    "passage": "**Remote Work Reshapes Commercial Real Estate Demand**\n*Property Weekly, April 22*\n\nThe widespread adoption of hybrid work models is leaving a visible mark on commercial real estate markets in major cities. Office vacancy rates in downtown districts have climbed to record highs in several metropolitan areas, as companies downsize their physical footprints in favor of flexible workspace arrangements.\n\nAccording to a recent survey by Workspace Analytics Group, 67% of companies with more than 500 employees have reduced their total office space since 2022. Many are replacing traditional leases with short-term memberships at coworking facilities.\n\nHowever, not all segments of commercial real estate are suffering. Demand for warehouse and logistics space has surged alongside the growth of e-commerce, partially offsetting losses in the office sector.\n\nExperts note that the long-term impact will depend heavily on how individual companies structure their work policies in the coming years.",
+    "questions": [
+      {
+        "question": "What is the main idea of this article?",
+        "options": [
+          "Downtown areas are losing population due to remote work",
+          "Commercial real estate investment has become unprofitable",
+          "Hybrid work is changing demand patterns in commercial real estate",
+          "Coworking spaces are replacing traditional offices permanently"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "According to the survey cited in the article, what percentage of large companies reduced their office space since 2022?",
+        "options": [
+          "67%",
+          "50%",
+          "33%",
+          "72%"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What does the article suggest about warehouse and logistics space?",
+        "options": [
+          "It is experiencing the same decline as office space",
+          "It is being converted into coworking facilities",
+          "It is no longer needed due to automation",
+          "Demand for it has increased alongside e-commerce growth"
+        ],
+        "answer": 4
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_010",
+    "passage_type": "article",
+    "passage": "**Nori Foods: From Local Kitchen to National Brand**\n*Entrepreneur Monthly, August 5*\n\nWhat began as a small family-run noodle shop in Portland, Oregon, has grown into one of the Pacific Northwest's most recognized food brands. Nori Foods, founded by sisters Yuki and Hana Ishida in 2015, now distributes its line of ready-to-eat Asian-inspired meals to over 3,000 retail locations across the United States.\n\nThe company's growth accelerated during the pandemic, when consumer demand for convenient home-cooked meal alternatives surged. Nori Foods capitalized on this shift by launching an online direct-to-consumer subscription service in 2020, which now accounts for 35% of total revenue.\n\nDespite rapid expansion, the Ishida sisters say they remain committed to using locally sourced ingredients wherever possible. \"We have never compromised on the quality that made our original customers loyal,\" said Yuki Ishida in a recent interview.",
+    "questions": [
+      {
+        "question": "What is the article mainly about?",
+        "options": [
+          "How the pandemic affected consumer eating habits nationwide",
+          "A comparison of Asian food brands in the U.S. market",
+          "The challenges of expanding a small business internationally",
+          "The growth journey of a family-founded food company"
+        ],
+        "answer": 4
+      },
+      {
+        "question": "What does the article indicate about Nori Foods' online subscription service?",
+        "options": [
+          "It was launched before the company opened its first physical store",
+          "It replaced all of the company's retail partnerships",
+          "It currently generates more than a third of the company's revenue",
+          "It was created specifically for international customers"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_011",
+    "passage_type": "notice",
+    "passage": "**NOTICE: Library Adjusted Hours — Summer Schedule**\n*Eastwood Public Library*\n\nPlease be advised that the Eastwood Public Library will operate on a reduced schedule during the summer months of July and August.\n\n**Summer Hours (July 1 – August 31):**\n- Monday–Thursday: 9:00 A.M. – 6:00 P.M.\n- Friday: 9:00 A.M. – 4:00 P.M.\n- Saturday: 10:00 A.M. – 3:00 P.M.\n- Sunday: CLOSED\n\nPlease note that all digital library services, including e-book lending and online databases, remain available 24 hours a day throughout the summer.\n\nThe library will return to regular operating hours beginning September 1. For questions, please call 555-0310 or email info@eastwoodlibrary.org.",
+    "questions": [
+      {
+        "question": "What is the purpose of this notice?",
+        "options": [
+          "To inform the public about changes to library operating hours",
+          "To announce the launch of new digital library services",
+          "To remind patrons about overdue book return deadlines",
+          "To advertise summer reading programs for children"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What is indicated about the library's digital services during summer?",
+        "options": [
+          "They will only be available on weekdays",
+          "They will be temporarily suspended during August",
+          "They will continue to be accessible around the clock",
+          "They will require a special summer membership"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_012",
+    "passage_type": "notice",
+    "passage": "**UPDATED EXPENSE REIMBURSEMENT POLICY**\n*Meridian Financial Group — Internal Memorandum*\n*Effective Date: October 1*\n\nPlease review the following updates to the company's employee expense reimbursement policy:\n\n1. **Receipt Requirement:** All expense claims exceeding $25 must be accompanied by an original or digital receipt. Claims without receipts will not be processed.\n\n2. **Submission Deadline:** All expense reports must be submitted within 30 days of the expense being incurred. Late submissions will not be reimbursed.\n\n3. **Meal Allowances:** The daily meal allowance for domestic travel has been increased from $55 to $70. The international travel meal allowance remains unchanged at $120 per day.\n\n4. **Approval Process:** Claims over $500 now require approval from both the department manager and the Finance Director before submission.\n\nQuestions regarding this policy should be directed to hr@meridianfg.com.",
+    "questions": [
+      {
+        "question": "What is the purpose of this memorandum?",
+        "options": [
+          "To announce new employee travel benefits",
+          "To communicate changes to the expense reimbursement rules",
+          "To remind staff of the annual budget review process",
+          "To introduce a new online expense management system"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "According to the updated policy, which of the following is NOT mentioned as a change?",
+        "options": [
+          "The receipt requirement threshold",
+          "The deadline for submitting expense reports",
+          "The domestic meal allowance amount",
+          "The international meal allowance amount"
+        ],
+        "answer": 4
+      },
+      {
+        "question": "Who must approve expense claims over $500?",
+        "options": [
+          "The department manager and Finance Director",
+          "The Finance Director only",
+          "The HR department and the department manager",
+          "The CEO and the Finance Director"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_013",
+    "passage_type": "notice",
+    "passage": "**PROFESSIONAL DEVELOPMENT WORKSHOP REGISTRATION**\n*Creston Business Institute*\n\nWorkshop: Effective Business Communication in a Digital Age\nDate: Saturday, May 18\nTime: 9:00 A.M. – 4:30 P.M.\nVenue: Creston Business Institute, Room 204\nFee: $85 per participant (lunch included)\n\n**Registration Deadline: May 10**\n\nTo register, complete this form and return it to admin@crestonbi.org along with proof of payment. Payment may be made by bank transfer or credit card. Cheques are not accepted.\n\nPlease note: Cancellations received before May 5 will receive a full refund. Cancellations after May 5 are not eligible for a refund but may transfer their registration to another participant.\n\nFor group registrations (5 or more participants), a 15% discount applies. Please contact us directly at 555-0481 for group bookings.",
+    "questions": [
+      {
+        "question": "What does the registration fee include?",
+        "options": [
+          "Parking and transportation to the venue",
+          "Access to the online course materials",
+          "A meal provided during the workshop",
+          "A printed copy of the course textbook"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "What option is available to someone who cancels after May 5?",
+        "options": [
+          "A partial refund of 50% of the fee",
+          "Transferring their registration to another person",
+          "Applying the fee toward a future workshop",
+          "Receiving a digital version of the workshop materials"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_014",
+    "passage_type": "chat",
+    "passage": "**Team Chat — Project Horizon**\n\n**Diane Cho** [10:14 A.M.]\nHi everyone. Quick update — the client moved the presentation to Thursday instead of Friday. Can we adjust?\n\n**Ryan Okafor** [10:16 A.M.]\nThursday works for me. I just need the slide deck by Wednesday afternoon to add the financial projections.\n\n**Priya Mehta** [10:18 A.M.]\nI have a doctor's appointment Thursday morning, but I can be at the office by noon. Will the presentation start after lunch?\n\n**Diane Cho** [10:20 A.M.]\nYes, the client confirmed 2 P.M. So you'll be fine, Priya.\n\n**Ryan Okafor** [10:22 A.M.]\nPerfect. Diane, do you want me to send you my section tonight so you can combine everything?\n\n**Diane Cho** [10:23 A.M.]\nThat would be great. Send it by 9 P.M. if possible. I'll have the full deck ready by tomorrow morning.\n\n**Priya Mehta** [10:25 A.M.]\nI'll send you my market analysis slides by 8 P.M. tonight then.",
+    "questions": [
+      {
+        "question": "Why are the team members chatting?",
+        "options": [
+          "To assign new roles for the project",
+          "To coordinate following a change in the presentation schedule",
+          "To discuss the content of the financial projections",
+          "To inform the client of a delay in the project"
+        ],
+        "answer": 2
+      },
+      {
+        "question": "What does Ryan Okafor need before the presentation?",
+        "options": [
+          "Approval from the client on the financial data",
+          "Priya's doctor's note confirming her schedule",
+          "The slide deck to add his financial projections",
+          "A new meeting room booking for Thursday"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "What can be inferred about Diane Cho?",
+        "options": [
+          "She will be absent from the Thursday presentation",
+          "She is responsible for adding the financial projections",
+          "She plans to send her slides to Ryan before 8 P.M.",
+          "She is coordinating the assembly of the final presentation"
+        ],
+        "answer": 4
+      }
+    ]
+  },
+  {
+    "id": "toeic_part7_015",
+    "passage_type": "chat",
+    "passage": "**LiveChat — NovaTech Support**\n\n**Support Agent (Alex T.)** [2:05 P.M.]\nHello! Thank you for contacting NovaTech Support. How can I help you today?\n\n**Customer (User)** [2:06 P.M.]\nHi, I bought a NovaTech X5 laptop two months ago and the battery is draining really fast now. It goes from 100% to 20% in about two hours.\n\n**Support Agent (Alex T.)** [2:08 P.M.]\nI'm sorry to hear that. Let me ask a few questions. Have you performed any system updates recently?\n\n**Customer (User)** [2:09 P.M.]\nYes, I updated the operating system last week. That's when the problem started.\n\n**Support Agent (Alex T.)** [2:11 P.M.]\nThank you. There is a known issue with a recent system update that affects battery performance on X5 models. A patch was released yesterday. Please go to Settings > System > Updates and install version 14.2.1. This should resolve the issue.\n\n**Customer (User)** [2:13 P.M.]\nOkay, I'll try that now.\n\n**Support Agent (Alex T.)** [2:14 P.M.]\nGreat. If the problem persists after the update, please contact us again and we will arrange a battery replacement under your warranty.",
+    "questions": [
+      {
+        "question": "What problem is the customer experiencing?",
+        "options": [
+          "The laptop battery drains very quickly",
+          "The laptop will not turn on after a system update",
+          "The laptop screen has stopped working",
+          "The laptop is running too slowly after the update"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What does Alex T. tell the customer to do?",
+        "options": [
+          "Return the laptop to the nearest NovaTech service center",
+          "Restore the laptop to its factory settings",
+          "Install a software patch via the settings menu",
+          "Uninstall the recent operating system update"
+        ],
+        "answer": 3
+      },
+      {
+        "question": "What can be inferred about the customer's warranty situation?",
+        "options": [
+          "The warranty has already expired because the laptop is two months old",
+          "The customer's laptop is likely still covered by a warranty",
+          "The warranty does not cover software-related issues",
+          "The customer will need to pay for any battery replacement"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+]
