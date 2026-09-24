@@ -1,9 +1,12 @@
 // Next.js 的 Turbopack 路徑只會載入這個檔名，舊式的 sentry.client.config.ts
 // 是 webpack 路徑才會被注入，放在那裡等於沒載到。
 import * as Sentry from "@sentry/nextjs";
+import { SENTRY_DSN } from "./lib/sentry-dsn";
 
 Sentry.init({
-  dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
+  dsn: SENTRY_DSN,
+  // 本機開發不回報，免得改程式時的錯誤混進線上的清單。
+  enabled: process.env.NODE_ENV !== "development",
 
   // 瀏覽器的 bundle 只內嵌 NEXT_PUBLIC_ 前綴的變數，讀 VERCEL_ENV 會永遠是
   // development。
