@@ -1,7 +1,7 @@
 ---
 title: 句型區（先學句型結構，再做情境練習）
 type: feature
-status: proposed
+status: completed
 created: 2026-09-25
 ---
 
@@ -126,5 +126,5 @@ Part 5 目前 80 題，答完只看得到一段英文解析（`backend/data/ques
 - [x] 動詞時態內容與畫面，給使用者抽看
 - [x] 其餘 11 份內容
 - [x] 導覽列與解析連結
-- [ ] 使用者抽驗
+- [x] 使用者抽驗
 - [x] 線上驗證
