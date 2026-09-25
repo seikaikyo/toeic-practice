@@ -23,7 +23,7 @@
     ],
     "answer": "by",
     "explanation": "'By' expresses a deadline, meaning no later than the stated time. 'Until' describes a continuous action up to a point, not a one-time deadline. 'During' indicates a period within which something happens. 'Since' marks the starting point of an ongoing action.",
-    "grammar_category": "verb tense"
+    "grammar_category": "preposition"
   },
   {
     "id": "toeic_part5_003",
@@ -36,7 +36,7 @@
     ],
     "answer": "was approved",
     "explanation": "Passive voice is required because the subject 'strategy' receives the action rather than performing it. 'Approved' (active past) would need the board as the subject. 'Has approved' is active and present perfect. 'Approving' is a participle with no auxiliary verb.",
-    "grammar_category": "verb tense"
+    "grammar_category": "passive voice"
   },
   {
     "id": "toeic_part5_004",
@@ -62,7 +62,7 @@
     ],
     "answer": "tighter",
     "explanation": "When comparing two things using 'than,' the comparative form is required. 'Tighter' is the correct comparative of the one-syllable adjective 'tight.' 'Tightest' is the superlative, used for comparing three or more items without 'than.' 'More tight' and 'most tight' are non-standard forms.",
-    "grammar_category": "subjunctive"
+    "grammar_category": "comparison"
   },
   {
     "id": "toeic_part5_006",
@@ -88,7 +88,7 @@
     ],
     "answer": "has",
     "explanation": "The subject is 'the number,' which is singular and takes 'has.' 'Have' and 'are' agree with the plural 'complaints,' which is the object of 'of' and not the subject, and 'were' is both plural and past tense, which clashes with 'since the new protocol was introduced.' The rule is: 'the number of + plural noun' takes a singular verb, while 'a number of + plural noun' takes a plural verb.",
-    "grammar_category": "word form"
+    "grammar_category": "quantifier"
   },
   {
     "id": "toeic_part5_008",
@@ -127,7 +127,7 @@
     ],
     "answer": "Despite",
     "explanation": "'Despite' is a preposition and is followed by a noun phrase ('the delayed shipment'), not a clause. 'Although' and 'Even though' are conjunctions that must introduce a full clause with a subject and verb. 'However' is a conjunctive adverb that connects independent clauses, usually preceded by a semicolon or period.",
-    "grammar_category": "word form"
+    "grammar_category": "conjunction"
   },
   {
     "id": "toeic_part5_011",
@@ -140,7 +140,7 @@
     ],
     "answer": "launched",
     "explanation": "A past participle is needed to form a reduced relative clause modifying 'campaign.' The full form would be 'that was launched by the marketing team.' 'Launch' (base form) and 'to launch' (infinitive) cannot modify a noun this way. 'Launching' would indicate the campaign was actively launching something, which changes the meaning.",
-    "grammar_category": "word form"
+    "grammar_category": "relative clause"
   },
   {
     "id": "toeic_part5_012",
@@ -153,7 +153,7 @@
     ],
     "answer": "once",
     "explanation": "'Once' is a conjunction meaning 'as soon as' or 'after,' indicating that one action follows another. It fits the sequence: first get approval, then send the proposal. 'While' means simultaneously happening. 'During' is a preposition, not a conjunction. 'Despite' indicates contrast, which is not the intended meaning.",
-    "grammar_category": "preposition"
+    "grammar_category": "conjunction"
   },
   {
     "id": "toeic_part5_013",
@@ -192,7 +192,7 @@
     ],
     "answer": "were",
     "explanation": "With 'neither...nor,' the verb agrees with the subject closer to it, which is 'the regional directors' (plural). Therefore, the plural verb 'were' is correct. If the closer subject were singular, the verb would be singular. This is called the 'proximity rule' or 'the rule of the nearest subject.'",
-    "grammar_category": "relative clause"
+    "grammar_category": "conjunction"
   },
   {
     "id": "toeic_part5_016",
@@ -205,7 +205,7 @@
     ],
     "answer": "who",
     "explanation": "'Who' is a relative pronoun used for people and functions as the subject of the relative clause ('who have registered'). 'Which' refers to things, not people. 'Whom' is used when the relative pronoun is the object of the clause (e.g., 'customers whom we contacted'). 'Whose' indicates possession.",
-    "grammar_category": "word form"
+    "grammar_category": "relative clause"
   },
   {
     "id": "toeic_part5_017",
@@ -231,7 +231,7 @@
     ],
     "answer": "be settled",
     "explanation": "After verbs of request, demand, or recommendation (request, insist, suggest, recommend), English uses the subjunctive mood: 'that + subject + base verb.' The passive subjunctive is 'be + past participle,' so 'be settled' is correct. 'Are settled' (indicative) and 'settled' (past) do not follow this pattern.",
-    "grammar_category": "passive voice"
+    "grammar_category": "subjunctive"
   },
   {
     "id": "toeic_part5_019",
@@ -244,7 +244,7 @@
     ],
     "answer": "whoever",
     "explanation": "'Whoever' is needed because it functions as the subject of the embedded clause 'whoever had purchased.' The entire noun clause 'whoever had purchased...' acts as the object of the preposition 'to.' 'Whoever' (subject case) is correct because it is the subject inside the clause. 'Whomever' would be used if the relative pronoun were the object within the clause.",
-    "grammar_category": "word form"
+    "grammar_category": "relative clause"
   },
   {
     "id": "toeic_part5_020",
@@ -257,7 +257,7 @@
     ],
     "answer": "more widely",
     "explanation": "A comparative adverb is needed to complete 'than.' 'Widely' is an adverb modifying 'attended,' and its comparative form is 'more widely.' 'Most widely' is superlative. 'Much wide' is not grammatical. 'Wider' is an adjective, not an adverb, and cannot modify the past participle 'attended.'",
-    "grammar_category": "word form"
+    "grammar_category": "comparison"
   },
   {
     "id": "toeic_part5_021",
@@ -296,7 +296,7 @@
     ],
     "answer": "Based on",
     "explanation": "'Based on' is a fixed participial phrase meaning 'using something as a foundation or source.' It correctly introduces the supporting data ('the sales figures'). 'Basing on' is non-standard. 'On the basis' requires 'of' after it and cannot directly precede a noun phrase without that preposition. 'Basis of' is incomplete.",
-    "grammar_category": "subjunctive"
+    "grammar_category": "preposition"
   },
   {
     "id": "toeic_part5_024",
@@ -309,7 +309,7 @@
     ],
     "answer": "professionally",
     "explanation": "An adverb is required to modify the verb 'handled.' 'Professionally' is the adverb form of 'professional.' 'Profession' is a noun referring to an occupation. 'Professional' is an adjective or noun. 'Professionalize' is a verb meaning to make something professional.",
-    "grammar_category": "subjunctive"
+    "grammar_category": "word form"
   },
   {
     "id": "toeic_part5_025",
@@ -348,7 +348,7 @@
     ],
     "answer": "had confirmed",
     "explanation": "This is a Type 3 (past unreal) conditional, describing a hypothetical situation contrary to past fact. The structure is: 'If + past perfect, would have + past participle.' 'Had confirmed' (past perfect) in the if-clause pairs with 'would not have been delayed' in the main clause. This structure indicates the supplier did not confirm on time, causing the delay.",
-    "grammar_category": "verb tense"
+    "grammar_category": "subjunctive"
   },
   {
     "id": "toeic_part5_028",
@@ -374,7 +374,7 @@
     ],
     "answer": "is",
     "explanation": "The subject is 'each,' which is always singular regardless of the noun that follows. 'Each of the candidates' takes a singular verb. 'Is required' is the correct present tense singular form. 'Are' and 'were' are plural. 'Have been' is plural and present perfect.",
-    "grammar_category": "verb tense"
+    "grammar_category": "quantifier"
   },
   {
     "id": "toeic_part5_030",
