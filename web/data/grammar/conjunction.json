@@ -1,0 +1,54 @@
+{
+  "slug": "conjunction",
+  "category": "conjunction",
+  "title": "連接詞",
+  "point": "連接詞題先看空格後面：有主詞加動詞的完整子句就用連接詞，只有名詞或 V-ing 就用介系詞。接著再看前後句是讓步、原因、條件還是時間。",
+  "formula": "連接詞 + 主詞 + 動詞，主詞 + 動詞（連接詞後面接完整子句）",
+  "breakdown": {
+    "parts": [
+      { "text": "Although the flight was delayed,", "role": "M" },
+      { "text": "the sales team", "role": "S" },
+      { "text": "arrived", "role": "V" },
+      { "text": "on time for the meeting.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "although / even though the price rose", "zh": "雖然價格上漲", "rule": "連接詞，後面接主詞 + 動詞的子句" },
+    { "en": "despite / in spite of the price increase", "zh": "儘管價格上漲", "rule": "介系詞，後面接名詞或 V-ing，不接子句" },
+    { "en": "because the train was late / because of the late train", "zh": "因為火車誤點", "rule": "because 接子句，because of 接名詞" },
+    { "en": "unless the client objects", "zh": "除非客戶反對", "rule": "unless 等於 if not，講未來時子句用現在式" },
+    { "en": "provided that the budget is approved", "zh": "只要預算核准", "rule": "條件連接詞，意思接近 if，後面接子句" },
+    { "en": "once the contract is signed", "zh": "合約一簽好（就……）", "rule": "一旦……就，講未來時子句用現在式，主句才用 will" },
+    { "en": "while the manager was away", "zh": "經理不在的期間", "rule": "while 表示「在……期間」，也可表示對比「然而」，後面接子句" }
+  ],
+  "examples": [
+    "Although the hotel was fully booked, the travel agent found two rooms for us.",
+    "Although the deadline was tight, the design team finished the brochure on schedule."
+  ],
+  "story": [
+    "Although the train to Taichung was delayed, Kevin arrived before the client meeting started.",
+    "Because the projector did not work, he presented the slides on his laptop.",
+    "The client agreed to sign the contract provided that deliveries begin in March.",
+    "Once the legal team reviews the terms, Kevin will send the final copy."
+  ],
+  "drills": [
+    {
+      "prompt": "Was Kevin late for the meeting?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "Although 子句只交代火車誤點，主句 Kevin arrived before the meeting started 才是結果。"
+    },
+    {
+      "prompt": "When will Kevin send the final copy?",
+      "choices": ["After the review", "Before the review"],
+      "answer": "After the review",
+      "fix": "Once 後面的子句 the legal team reviews the terms 先發生，主句 will send 在它之後。"
+    },
+    {
+      "prompt": "___ the rain was heavy, the shipment arrived on time.",
+      "choices": ["Although", "Despite", "Because of"],
+      "answer": "Although",
+      "fix": "空格後面是完整子句 the rain was heavy，要用連接詞 although，despite 和 because of 只能接名詞。"
+    }
+  ]
+}

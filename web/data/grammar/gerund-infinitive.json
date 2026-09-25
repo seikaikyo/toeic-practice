@@ -1,0 +1,53 @@
+{
+  "slug": "gerund-infinitive",
+  "category": "gerund/infinitive",
+  "title": "動名詞與不定詞",
+  "point": "動名詞與不定詞題先看空格前面的動詞或介系詞。前面的字決定後面接 V-ing 還是 to V。",
+  "formula": "主詞 + 動詞 + V-ing / to V（由前面的動詞決定）",
+  "breakdown": {
+    "parts": [
+      { "text": "The consultant", "role": "S" },
+      { "text": "recommended", "role": "V" },
+      { "text": "reducing the number of suppliers", "role": "O" },
+      { "text": "to cut shipping costs.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "suggest / consider / avoid + V-ing", "zh": "建議、考慮、避免做某事", "rule": "這些動詞後面接 V-ing，不接 to V" },
+    { "en": "recommend / postpone + V-ing", "zh": "推薦、延後做某事", "rule": "後面接 V-ing；recommend 也可以接 that 子句" },
+    { "en": "agree / decide / plan + to V", "zh": "同意、決定、計畫做某事", "rule": "這些動詞後面接 to V" },
+    { "en": "before / after / by / without + V-ing", "zh": "在做之前、之後、藉由、沒有做", "rule": "介系詞後面一律接 V-ing" },
+    { "en": "look forward to meeting you", "zh": "期待與你見面", "rule": "這裡的 to 是介系詞，後面接 V-ing" },
+    { "en": "encourage / ask + someone + to V", "zh": "鼓勵、請某人做某事", "rule": "動詞 + 受詞 + to V" }
+  ],
+  "examples": [
+    "The manager suggested moving the weekly meeting to Thursday afternoon.",
+    "The board decided to open a second branch office in Singapore."
+  ],
+  "story": [
+    "The sales team planned to visit three clients in Seoul next month.",
+    "Their director suggested booking the flights early to save money.",
+    "However, the team postponed reserving hotel rooms until the schedule was confirmed.",
+    "The travel agent encouraged them to buy travel insurance before leaving."
+  ],
+  "drills": [
+    {
+      "prompt": "Did the team reserve hotel rooms right away?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "postponed reserving 表示延後訂房，postpone 後面接 V-ing。"
+    },
+    {
+      "prompt": "The director suggested ___ the flights early.",
+      "choices": ["booking", "to book", "book"],
+      "answer": "booking",
+      "fix": "suggest 後面接 V-ing，不接 to V。"
+    },
+    {
+      "prompt": "The agent encouraged them ___ insurance.",
+      "choices": ["to buy", "buying", "buy"],
+      "answer": "to buy",
+      "fix": "encourage 的句型是 encourage + 受詞 + to V。"
+    }
+  ]
+}

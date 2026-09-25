@@ -1,0 +1,54 @@
+{
+  "slug": "pronoun",
+  "category": "pronoun",
+  "title": "代名詞",
+  "point": "代名詞題先看空格的位置。在動詞前面當主詞、在動詞或介系詞後面當受詞、在名詞前面當所有格，位置一決定，格就跟著決定。",
+  "formula": "主詞 + 動詞 + 所有格（their / its / his / her）+ 名詞",
+  "breakdown": {
+    "parts": [
+      { "text": "The sales representatives", "role": "S" },
+      { "text": "submitted", "role": "V" },
+      { "text": "their expense reports", "role": "O" },
+      { "text": "before the deadline.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "They approved the plan.", "zh": "他們核准了計畫", "rule": "放在動詞前面當主詞：主格 I / we / they / he / she / it" },
+    { "en": "Please contact us / thank them", "zh": "請聯絡我們、感謝他們", "rule": "放在動詞後面當受詞：受格 me / us / them / him / her" },
+    { "en": "several of them / a message for her", "zh": "他們當中幾位、給她的留言", "rule": "介系詞（of / for / with / to）後面一律用受格" },
+    { "en": "their reports / its policy / his office", "zh": "他們的報告、它的政策、他的辦公室", "rule": "後面緊接名詞：所有格 my / our / their / his / her / its" },
+    { "en": "The final design is hers.", "zh": "最後的設計是她的", "rule": "後面不接名詞，自己就等於「所有格 + 名詞」：所有格代名詞 mine / ours / theirs / hers" },
+    { "en": "The staff set up the booth themselves.", "zh": "員工自己把攤位架好", "rule": "主詞自己做，或強調親自：反身代名詞 -self / -selves，指回同一個主詞" },
+    { "en": "its warranty / it's (= it is) ready", "zh": "它的保固、它好了", "rule": "its 是所有格，後面接名詞；it's 是 it is 的縮寫，後面接形容詞或動詞" }
+  ],
+  "examples": [
+    "The new interns completed their safety training on the first day.",
+    "The company updated its travel policy after the merger."
+  ],
+  "story": [
+    "The purchasing team reviewed its supplier list last week.",
+    "Mr. Tanaka sent his recommendations to the finance director.",
+    "Five suppliers had raised their prices, so several of them were removed from the list.",
+    "The remaining suppliers will send their revised quotes by Friday."
+  ],
+  "drills": [
+    {
+      "prompt": "Did Mr. Tanaka send his recommendations to the finance director?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes",
+      "fix": "his recommendations 是所有格 + 名詞，指 Mr. Tanaka 自己的建議，他寄給了財務主管。"
+    },
+    {
+      "prompt": "Were some of the suppliers that raised prices removed?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes",
+      "fix": "several of them 的 them 指漲價的供應商，介系詞 of 後面用受格。"
+    },
+    {
+      "prompt": "The warehouse staff updated ___ inventory records.",
+      "choices": ["their", "them", "they"],
+      "answer": "their",
+      "fix": "空格後面緊接名詞 inventory records，要用所有格 their。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "verb-tense",
+  "category": "verb tense",
+  "title": "動詞時態",
+  "point": "時態題先找時間線索。線索說出動作發生在哪個時間點，動詞形態就跟著決定。",
+  "formula": "By the time + 主詞 + 過去式動詞，主詞 + had + 過去分詞",
+  "breakdown": {
+    "parts": [
+      { "text": "By the time the new manager arrived,", "role": "M" },
+      { "text": "the team", "role": "S" },
+      { "text": "had already finalized", "role": "V" },
+      { "text": "the budget for next year.", "role": "O" }
+    ]
+  },
+  "table": [
+    { "en": "yesterday / last week / two days ago", "zh": "昨天、上週、兩天前", "rule": "過去某個時間點：過去式 V-ed" },
+    { "en": "since April / for three years", "zh": "從四月起、已經三年", "rule": "從過去延續到現在：have/has + 過去分詞" },
+    { "en": "have been reviewing since Monday", "zh": "從週一起一直在審", "rule": "延續到現在而且還在做：have/has been + V-ing" },
+    { "en": "currently / at the moment", "zh": "目前、此刻", "rule": "現在正在進行：am/is/are + V-ing" },
+    { "en": "By the time she arrived", "zh": "等她到的時候（過去）", "rule": "比過去時間點更早完成：had + 過去分詞" },
+    { "en": "by next month / by the time it airs", "zh": "到下個月之前、等它播出時", "rule": "在未來時間點之前完成：will have + 過去分詞" },
+    { "en": "once the order arrives, we will call you", "zh": "訂單一到，我們就會打給你", "rule": "時間與條件子句講未來用現在式，主句才用 will" }
+  ],
+  "examples": [
+    "By the time the auditors arrived, the accounting team had already closed the books for the quarter.",
+    "By the time the shipment reached the port, the customer had canceled half of the order."
+  ],
+  "story": [
+    "Mina flew to Osaka for a trade show last Monday.",
+    "By the time her flight landed, the exhibition hall had already opened.",
+    "Her colleague had set up the booth the night before.",
+    "By the time Mina reached the booth, three clients had left their business cards."
+  ],
+  "drills": [
+    {
+      "prompt": "Was the exhibition hall open when Mina's flight landed?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes",
+      "fix": "had already opened 表示降落之前展場就開了。"
+    },
+    {
+      "prompt": "Did the clients leave their cards before or after Mina reached the booth?",
+      "choices": ["Before", "After"],
+      "answer": "Before",
+      "fix": "had left 的動作比 reached 更早發生，所以是之前。"
+    },
+    {
+      "prompt": "By the time Mina sat down, her colleague ___ lunch for both of them.",
+      "choices": ["had ordered", "orders", "has ordered"],
+      "answer": "had ordered",
+      "fix": "sat down 是過去的時間點，比它更早完成的事用 had + 過去分詞。"
+    }
+  ]
+}

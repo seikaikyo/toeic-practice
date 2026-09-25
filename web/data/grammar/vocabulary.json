@@ -1,0 +1,53 @@
+{
+  "slug": "vocabulary",
+  "category": "vocabulary",
+  "title": "字義辨析",
+  "point": "字義題四個選項常常長得很像，別只看中文意思。先看空格前後的搭配字，固定搭配會直接決定是哪個字。",
+  "formula": "先看空格前後的搭配字：動詞 + 受詞、形容詞 + 名詞",
+  "breakdown": {
+    "parts": [
+      { "text": "The regional manager", "role": "S" },
+      { "text": "gave", "role": "V" },
+      { "text": "constructive feedback", "role": "O" },
+      { "text": "on the new sales proposal.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "give constructive feedback", "zh": "給予有建設性的意見", "rule": "constructive 修飾 feedback、criticism，意思是有幫助的；形近字 constructed 是「被建造的」，不修飾意見" },
+    { "en": "access is restricted to managers", "zh": "只限經理使用", "rule": "restricted to + 對象，表示限定範圍；形近字 restrained 是「克制的」，不接範圍" },
+    { "en": "extend the deadline", "zh": "延長截止日", "rule": "extend 搭配 deadline、contract、trial period，表示時間拉長；expand 是擴大規模或範圍，不用在期限" },
+    { "en": "meet the requirements", "zh": "符合要求", "rule": "meet 搭配 requirements、standards、deadline；reach 搭配 agreement、goal，不接 requirements" },
+    { "en": "place an order", "zh": "下訂單", "rule": "order 的固定動詞是 place；locate、position 雖然也有「放置」的意思，不跟 order 搭配" },
+    { "en": "conduct a survey", "zh": "進行問卷調查", "rule": "conduct 搭配 survey、inspection、interview；形近字 contact 是聯絡某人，不接 survey" }
+  ],
+  "examples": [
+    "The director gave constructive comments on the hiring plan.",
+    "The marketing team conducted a customer survey on the new packaging."
+  ],
+  "story": [
+    "Our office conducted a short survey on the new room booking system.",
+    "Most employees gave constructive feedback about its design.",
+    "However, access to the system is still restricted to managers.",
+    "The IT department agreed to extend the trial period until June."
+  ],
+  "drills": [
+    {
+      "prompt": "Can every employee use the booking system now?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "restricted to managers 表示限定只有經理能用。"
+    },
+    {
+      "prompt": "Did IT make the trial period longer or shorter?",
+      "choices": ["Longer", "Shorter"],
+      "answer": "Longer",
+      "fix": "extend 搭配期限 the trial period，意思是延長。"
+    },
+    {
+      "prompt": "The purchasing team ___ an order for new chairs.",
+      "choices": ["placed", "located", "positioned"],
+      "answer": "placed",
+      "fix": "動詞 + 受詞 order 的固定搭配是 place an order。"
+    }
+  ]
+}
