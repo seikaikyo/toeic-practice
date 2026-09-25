@@ -4,11 +4,34 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { ExampleSentence, collectTokens } from "@/components/vocabulary/example-sentence";
 import { WordPopover, type PopoverAnchor } from "@/components/vocabulary/word-popover";
+import {
+  DEFAULT_ACCENT,
+  DEFAULT_GENDER,
+  MALE_READY,
+  audioUrlFor,
+  useSpeech,
+  type AccentId,
+  type GenderId,
+} from "@/hooks/use-speech";
 import { lookupTokens } from "@/lib/api";
 import { setStudyWord } from "@/lib/review-handoff";
 import type { LookupEntries, Word } from "@/lib/types";
 
-/* 例句與短文。字庫查得到的字可以點，小卡裡的「去背」跳到背單字頁第一張。
+/** 發音沿用背單字頁存下的口音與聲音，沒存過就用預設。 */
+function savedVoice(): { accent: AccentId; gender: GenderId } {
+  try {
+    const accent = window.localStorage.getItem("toeic:accent");
+    const gender = window.localStorage.getItem("toeic:gender");
+    return {
+      accent: accent === "us" || accent === "gb" || accent === "au" ? accent : DEFAULT_ACCENT,
+      gender: gender === "f" || (gender === "m" && MALE_READY) ? gender : DEFAULT_GENDER,
+    };
+  } catch {
+    return { accent: DEFAULT_ACCENT, gender: DEFAULT_GENDER };
+  }
+}
+
+/* 例句與短文。字庫查得到的字可以點，小卡裡可以聽發音，「去背」跳到背單字頁第一張。
  * 開關小卡的時間差跟背單字頁的例句一致：滑過停 150 毫秒才開，離開 120 毫秒才關。
  */
 export function LinkedSentences({
@@ -21,6 +44,7 @@ export function LinkedSentences({
   testId?: string;
 }) {
   const router = useRouter();
+  const { supported, speak } = useSpeech();
   const [entries, setEntries] = useState<LookupEntries>({});
   const [picked, setPicked] = useState<{ word: Word; anchor: PopoverAnchor | null } | null>(null);
   const [hoverCapable, setHoverCapable] = useState(false);
@@ -93,8 +117,11 @@ export function LinkedSentences({
           word={picked.word}
           anchor={picked.anchor}
           hoverCapable={hoverCapable}
-          canSpeak={false}
-          onSpeak={() => {}}
+          canSpeak={supported}
+          onSpeak={() => {
+            const { accent, gender } = savedVoice();
+            speak(picked.word.word, audioUrlFor(picked.word.id, accent, gender));
+          }}
           onClose={() => {
             clearTimers();
             setPicked(null);
