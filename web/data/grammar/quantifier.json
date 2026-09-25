@@ -1,0 +1,53 @@
+{
+  "slug": "quantifier",
+  "category": "quantifier",
+  "title": "數量詞",
+  "point": "數量詞題先看後面的名詞是可數還是不可數、單數還是複數，再看動詞跟著誰變。",
+  "formula": "Neither / Either / Each / One + of the + 複數名詞 + 單數動詞",
+  "breakdown": {
+    "parts": [
+      { "text": "Each of the applicants", "role": "S" },
+      { "text": "has", "role": "V" },
+      { "text": "at least two years of sales experience", "role": "O" },
+      { "text": "in retail.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "a few suppliers / few suppliers", "zh": "有幾家供應商、幾乎沒有供應商", "rule": "a few、few 接可數複數名詞；a few 偏肯定，few 偏否定" },
+    { "en": "a little time / little time", "zh": "有一點時間、幾乎沒時間", "rule": "a little、little 接不可數名詞；a little 偏肯定，little 偏否定" },
+    { "en": "many orders / much equipment", "zh": "很多訂單、很多設備", "rule": "many 接可數複數名詞，much 接不可數名詞" },
+    { "en": "each employee / every branch", "zh": "每位員工、每間分店", "rule": "each、every 接單數名詞，動詞用單數" },
+    { "en": "Neither of the rooms is available.", "zh": "兩間會議室都沒空", "rule": "neither / either / each / one of the + 複數名詞，動詞跟前面的數量詞用單數" },
+    { "en": "all of the staff / most of the orders", "zh": "全體員工、大部分訂單", "rule": "all、most of the 後面的名詞決定動詞：不可數或單數用單數動詞，複數名詞用複數動詞" }
+  ],
+  "examples": [
+    "Neither of the proposals meets the budget limit for this year.",
+    "One of the printers on the third floor needs a new toner cartridge."
+  ],
+  "story": [
+    "Ms. Lee received quotes from three hotels for the sales conference in May.",
+    "Neither of the first two hotels has a room large enough for 200 guests.",
+    "Each of the quotes includes breakfast, but only a few offer free parking.",
+    "One of the event planners is visiting the third hotel tomorrow."
+  ],
+  "drills": [
+    {
+      "prompt": "Can either of the first two hotels hold 200 guests?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "Neither of the + 複數名詞 表示兩者都不，動詞用單數 has。"
+    },
+    {
+      "prompt": "Do all three quotes include breakfast?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes",
+      "fix": "Each of the quotes 指每一份都有，動詞跟 each 用單數 includes。"
+    },
+    {
+      "prompt": "Either of the dates ___ fine for the client.",
+      "choices": ["is", "are", "be"],
+      "answer": "is",
+      "fix": "Either of the + 複數名詞，動詞跟 either 用單數 is。"
+    }
+  ]
+}

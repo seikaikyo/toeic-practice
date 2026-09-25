@@ -1,0 +1,53 @@
+{
+  "slug": "comparison",
+  "category": "comparison",
+  "title": "比較級",
+  "point": "比較題先看有沒有 than、the 或 as ... as。看到 than 用比較級，看到 the 加範圍用最高級，as 中間放原級。",
+  "formula": "主詞 + 動詞 + far/much + 比較級 + than + 比較對象",
+  "breakdown": {
+    "parts": [
+      { "text": "The new supplier", "role": "S" },
+      { "text": "delivers", "role": "V" },
+      { "text": "much faster", "role": "M" },
+      { "text": "than our previous vendor.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "cheaper / faster / busier", "zh": "比較便宜、比較快、比較忙", "rule": "單音節字加 -er；子音加 -y 結尾的字改成 -ier" },
+    { "en": "more reliable / more expensive", "zh": "比較可靠、比較貴", "rule": "多數兩個音節以上的形容詞用 more + 原級" },
+    { "en": "more quietly / more efficiently", "zh": "更安靜地、更有效率地", "rule": "-ly 副詞的比較級用 more + 副詞，不加 -er" },
+    { "en": "far / much / slightly cheaper", "zh": "便宜得多、稍微便宜一點", "rule": "far、much、slightly、even 可以修飾比較級，very 不行" },
+    { "en": "the largest of the three / the best in the region", "zh": "三個之中最大、區域內最好", "rule": "最高級前面加 the，範圍用 of + 群體或 in + 地點、組織" },
+    { "en": "as fast as / not as costly as", "zh": "跟……一樣快、沒有……那麼貴", "rule": "as + 原級 + as，中間不能放比較級" }
+  ],
+  "examples": [
+    "The updated booking system runs much faster than the old platform.",
+    "The Busan warehouse operates far more efficiently than the Incheon site."
+  ],
+  "story": [
+    "Daniel is choosing a supplier for 200 new office chairs.",
+    "Hartwell's chairs cost slightly more than the chairs from Brightseat.",
+    "However, Hartwell delivers much faster than Brightseat, so the chairs would arrive before the office move.",
+    "Daniel decided that quick delivery matters more than a small price difference."
+  ],
+  "drills": [
+    {
+      "prompt": "Are Hartwell's chairs cheaper than Brightseat's?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "cost slightly more than 是「比……稍微貴一點」，所以 Hartwell 比較貴。"
+    },
+    {
+      "prompt": "Which supplier delivers faster?",
+      "choices": ["Hartwell", "Brightseat"],
+      "answer": "Hartwell",
+      "fix": "Hartwell delivers much faster than Brightseat，than 前面的主詞才是比較快的那一方。"
+    },
+    {
+      "prompt": "The new chairs are ___ more comfortable than the old ones.",
+      "choices": ["much", "very", "most"],
+      "answer": "much",
+      "fix": "比較級 more comfortable 前面要用 much 或 far 加強，very 只能修飾原級。"
+    }
+  ]
+}

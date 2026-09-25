@@ -94,6 +94,7 @@ export function QuestionCard({
             <FeedbackPanel
               isCorrect={isCorrect}
               explanation={question.explanation}
+              category={question.grammar_category}
             />
             <Button
               size="lg"

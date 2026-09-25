@@ -1,0 +1,53 @@
+{
+  "slug": "relative-clause",
+  "category": "relative clause",
+  "title": "關係子句",
+  "point": "關係詞題先看前面的名詞是人、物還是地點，再看空格後面缺什麼：缺主詞、缺受詞、接名詞，還是已經是完整子句。",
+  "formula": "先行詞 + who/which/that/whose/where + 子句（整段修飾前面的名詞）",
+  "breakdown": {
+    "parts": [
+      { "text": "The engineer", "role": "S" },
+      { "text": "who repaired the server last night", "role": "M" },
+      { "text": "will lead", "role": "V" },
+      { "text": "the new security project.", "role": "O" }
+    ]
+  },
+  "table": [
+    { "en": "the manager who approved the budget", "zh": "核准預算的那位經理", "rule": "先行詞是人，在子句中當主詞用 who，後面直接接動詞" },
+    { "en": "the candidate whom we interviewed", "zh": "我們面試過的那位應徵者", "rule": "先行詞是人，在子句中當受詞用 whom，後面接主詞 + 動詞" },
+    { "en": "the report which / that was submitted", "zh": "已經提交的那份報告", "rule": "先行詞是物，用 which 或 that" },
+    { "en": "the client whose order was delayed", "zh": "訂單延誤的那位客戶", "rule": "whose + 名詞表示所有關係（誰的什麼）" },
+    { "en": "the hotel where we stayed", "zh": "我們住過的那家飯店", "rule": "先行詞是地點，where 後面接主詞 + 動詞都齊全的完整子句" },
+    { "en": "the hotel which we booked", "zh": "我們訂的那家飯店", "rule": "子句缺受詞（booked 後面沒東西）時用 which 或 that，不用 where" }
+  ],
+  "examples": [
+    "The consultant who reviewed our contracts will present the findings on Friday.",
+    "The assistant who arranged the flights will send the itinerary tomorrow."
+  ],
+  "story": [
+    "A customer whose package arrived damaged called the support center on Monday.",
+    "The agent who took the call offered a full refund right away.",
+    "She also shipped a replacement from the warehouse where the company keeps its spare stock.",
+    "The next day, the customer posted a review that praised the quick response."
+  ],
+  "drills": [
+    {
+      "prompt": "Did the agent offer the customer a refund?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes",
+      "fix": "who took the call 只是說明是哪位客服，主詞 The agent 的動詞是 offered。"
+    },
+    {
+      "prompt": "Where did the replacement come from?",
+      "choices": ["A warehouse", "A store"],
+      "answer": "A warehouse",
+      "fix": "where 後面接完整子句 the company keeps its spare stock，用來說明前面的 warehouse。"
+    },
+    {
+      "prompt": "The client ___ invoice was missing called again.",
+      "choices": ["whose", "who", "which"],
+      "answer": "whose",
+      "fix": "空格後面緊接名詞 invoice，表示「客戶的發票」，所有關係用 whose。"
+    }
+  ]
+}

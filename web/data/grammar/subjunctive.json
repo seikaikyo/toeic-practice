@@ -1,0 +1,53 @@
+{
+  "slug": "subjunctive",
+  "category": "subjunctive",
+  "title": "假設語氣",
+  "point": "假設語氣先看兩種訊號：要求、建議類動詞後面的 that 子句用原形動詞；If 子句跟事實相反時，時態往過去退一格。",
+  "formula": "主詞 + require / recommend / insist + that + 主詞 + 原形動詞（否定用 not + 原形動詞）",
+  "breakdown": {
+    "parts": [
+      { "text": "The security policy", "role": "S" },
+      { "text": "requires", "role": "V" },
+      { "text": "that every visitor sign in", "role": "O" },
+      { "text": "at the front desk.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "require that he submit the form", "zh": "要求他交表格", "rule": "要求類動詞 + that + 主詞 + 原形動詞，不隨主詞加 s" },
+    { "en": "recommend that she attend", "zh": "建議她出席", "rule": "建議類動詞的 that 子句同樣用原形動詞" },
+    { "en": "insist that they not leave early", "zh": "堅持他們不要提早離開", "rule": "否定把 not 放在原形動詞前面" },
+    { "en": "It is essential that each form be signed", "zh": "每份表格都必須簽名", "rule": "It is essential / important that + 主詞 + 原形動詞，被動用 be + 過去分詞" },
+    { "en": "If we had known, we would have called", "zh": "如果當時知道，我們就會打電話", "rule": "與過去事實相反：If + had 過去分詞，would have 過去分詞" },
+    { "en": "If we had more staff, we would finish sooner", "zh": "如果人手多一點，就會早點完成", "rule": "與現在事實相反：If + 過去式，would + 原形動詞" }
+  ],
+  "examples": [
+    "The director recommends that each department submit its budget by June.",
+    "The client insisted that the supplier replace the damaged parts."
+  ],
+  "story": [
+    "The HR manager reviewed the company's hiring process last week.",
+    "She recommended that every candidate complete a short writing test.",
+    "The CEO also insisted that the team not schedule interviews on Fridays.",
+    "If the company had used this process last year, it would have avoided several costly hiring mistakes."
+  ],
+  "drills": [
+    {
+      "prompt": "Can the team schedule interviews on Fridays?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "insisted that the team not schedule 是堅持不要排，否定用 not + 原形動詞。"
+    },
+    {
+      "prompt": "She recommended that every candidate ___ a test.",
+      "choices": ["complete", "completes", "completed"],
+      "answer": "complete",
+      "fix": "recommend that 後面的子句用原形動詞，不隨主詞加 s，也不改過去式。"
+    },
+    {
+      "prompt": "Did the company use this process last year?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "If + had 過去分詞表示跟過去事實相反，所以去年其實沒有用。"
+    }
+  ]
+}

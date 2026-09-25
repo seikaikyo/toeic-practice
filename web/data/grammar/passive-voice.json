@@ -1,0 +1,54 @@
+{
+  "slug": "passive-voice",
+  "category": "passive voice",
+  "title": "被動語態",
+  "point": "先問主詞是做動作的人，還是被處理的東西。主詞是被處理的一方就用 be + 過去分詞，時態由 be 動詞決定。",
+  "formula": "主詞 + be 動詞 + 過去分詞 (+ by + 執行者)",
+  "breakdown": {
+    "parts": [
+      { "text": "The final budget", "role": "S" },
+      { "text": "was approved", "role": "V" },
+      { "text": "by the board of directors", "role": "M" },
+      { "text": "on Tuesday.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "is sent every Friday", "zh": "每週五寄出", "rule": "現在式被動：am/is/are + 過去分詞" },
+    { "en": "was approved yesterday", "zh": "昨天核准了", "rule": "過去式被動：was/were + 過去分詞" },
+    { "en": "has been updated", "zh": "已經更新了", "rule": "現在完成式被動：have/has been + 過去分詞" },
+    { "en": "will be delivered next week", "zh": "下週會送達", "rule": "未來式被動：will be + 過去分詞" },
+    { "en": "is being repaired", "zh": "正在修理中", "rule": "進行式被動：am/is/are being + 過去分詞" },
+    { "en": "must be submitted by Friday", "zh": "週五前必須提交", "rule": "助動詞（must、should、can）+ be + 過去分詞" },
+    { "en": "The invoice was paid. / The client paid the invoice.", "zh": "發票已付款／客戶付了發票", "rule": "主詞是動作的承受者用被動，主詞是做動作的人用主動" }
+  ],
+  "examples": [
+    "The new service contract was signed by both parties on Monday.",
+    "The damaged printer was returned by the customer last week."
+  ],
+  "story": [
+    "Every order at Norland Supplies is packed within 24 hours.",
+    "Last Thursday, a large order from a hotel chain was shipped by express courier.",
+    "The next morning, the boxes were delivered to the wrong address.",
+    "The mistake was fixed by the logistics team, and the hotel received its order that afternoon."
+  ],
+  "drills": [
+    {
+      "prompt": "Were the boxes delivered to the correct address?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "the boxes were delivered to the wrong address，主詞 the boxes 是被送錯地址的東西。"
+    },
+    {
+      "prompt": "Who fixed the mistake?",
+      "choices": ["The logistics team", "The hotel"],
+      "answer": "The logistics team",
+      "fix": "被動句裡 by 後面接做動作的人，所以處理的是物流團隊。"
+    },
+    {
+      "prompt": "All expense reports must ___ by Friday.",
+      "choices": ["be submitted", "submit", "submitted"],
+      "answer": "be submitted",
+      "fix": "報告是被提交的一方，助動詞 must 後面接 be + 過去分詞。"
+    }
+  ]
+}

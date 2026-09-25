@@ -1,0 +1,54 @@
+{
+  "slug": "word-form",
+  "category": "word form",
+  "title": "詞性",
+  "point": "詞性題先看空格位置。空格前後是什麼詞，就決定要填名詞、形容詞還是副詞，字尾用來確認。",
+  "formula": "限定詞 + 形容詞 + 名詞 + 動詞 + 副詞（形容詞修飾名詞，副詞修飾動詞）",
+  "breakdown": {
+    "parts": [
+      { "text": "The experienced technician", "role": "S" },
+      { "text": "responded", "role": "V" },
+      { "text": "quickly", "role": "M" },
+      { "text": "to the service call.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "production / management / agreement", "zh": "生產、管理、協議", "rule": "-tion、-ment 結尾多半是名詞，放在限定詞或形容詞後面" },
+    { "en": "effective / successful / available", "zh": "有效的、成功的、可取得的", "rule": "-ive、-ful、-able 結尾多半是形容詞，放在名詞前面或 be 動詞後面" },
+    { "en": "quickly / carefully / promptly", "zh": "迅速地、仔細地、即時地", "rule": "-ly 結尾多半是副詞，修飾動詞、形容詞或整句" },
+    { "en": "the ___ proposal", "zh": "這份（怎樣的）提案", "rule": "限定詞與名詞之間的空格填形容詞" },
+    { "en": "the ___ of the new plant", "zh": "新工廠的（什麼）", "rule": "限定詞後面、介系詞前面的空格填名詞" },
+    { "en": "responded ___ / is ___ priced", "zh": "（怎樣地）回覆、定價（怎樣）", "rule": "動詞後面，或形容詞、過去分詞前面的空格填副詞" },
+    { "en": "friendly / costly / timely", "zh": "友善的、昂貴的、及時的", "rule": "名詞加 -ly 變成形容詞，不是副詞，要看位置判斷" }
+  ],
+  "examples": [
+    "The overseas supplier replied promptly to our price inquiry.",
+    "The temporary receptionist greeted the visitors politely during the conference."
+  ],
+  "story": [
+    "Ms. Chen's department received an urgent complaint on Tuesday morning.",
+    "The new assistant answered the customer immediately.",
+    "Her careful explanation of the refund policy was very helpful.",
+    "The next day, the satisfied customer thanked the whole team warmly."
+  ],
+  "drills": [
+    {
+      "prompt": "Did the assistant answer the customer right away?",
+      "choices": ["Yes", "No"],
+      "answer": "Yes",
+      "fix": "immediately 是 -ly 副詞，修飾動詞 answered，表示立刻回覆。"
+    },
+    {
+      "prompt": "The customer thanked the team ___.",
+      "choices": ["warm", "warmly", "warmth"],
+      "answer": "warmly",
+      "fix": "空格在動詞與受詞後面，用來修飾動作，要填 -ly 副詞。"
+    },
+    {
+      "prompt": "Her ___ explanation was very helpful.",
+      "choices": ["careful", "carefully", "care"],
+      "answer": "careful",
+      "fix": "空格在所有格 Her 與名詞之間，修飾名詞要用形容詞。"
+    }
+  ]
+}

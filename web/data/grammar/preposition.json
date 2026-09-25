@@ -1,0 +1,54 @@
+{
+  "slug": "preposition",
+  "category": "preposition",
+  "title": "介系詞",
+  "point": "介系詞題先看後面接的是時間點還是時間長度，再看動作是完成、持續，還是從過去延續到現在。",
+  "formula": "主詞 + 動詞 + 受詞 + within / by / since + 時間",
+  "breakdown": {
+    "parts": [
+      { "text": "The warehouse", "role": "S" },
+      { "text": "will ship", "role": "V" },
+      { "text": "your order", "role": "O" },
+      { "text": "within three business days.", "role": "M" }
+    ]
+  },
+  "table": [
+    { "en": "within three days", "zh": "三天之內", "rule": "在一段期限之內完成，後面接時間長度" },
+    { "en": "by Friday", "zh": "最晚在週五", "rule": "在某時間點之前完成，後面接時間點" },
+    { "en": "until 5 p.m.", "zh": "一直到下午五點", "rule": "動作持續到某時間點，常搭配 stay、remain、wait" },
+    { "en": "since 2020", "zh": "從 2020 年起", "rule": "從過去某時間起延續到現在，主句用現在完成式" },
+    { "en": "for two weeks", "zh": "持續兩週", "rule": "後面接一段時間長度，表示持續多久" },
+    { "en": "through the online portal", "zh": "透過線上系統", "rule": "表示方式或管道" },
+    { "en": "be responsible for the budget", "zh": "負責預算", "rule": "固定搭配：be responsible for + 名詞或 V-ing" }
+  ],
+  "examples": [
+    "The accounting office will process the invoice within five days.",
+    "The vendor must deliver the samples by next Monday."
+  ],
+  "story": [
+    "A client in Taichung ordered 200 office chairs on Monday.",
+    "The supplier promised delivery within ten business days.",
+    "The purchasing team must approve the payment by Thursday.",
+    "Mr. Lin has been responsible for this account since last year."
+  ],
+  "drills": [
+    {
+      "prompt": "Can the team approve the payment on Friday?",
+      "choices": ["Yes", "No"],
+      "answer": "No",
+      "fix": "by Thursday 是最晚在週四之前，週五已經超過期限。"
+    },
+    {
+      "prompt": "The supplier will ship the chairs ___ ten days.",
+      "choices": ["within", "since", "by"],
+      "answer": "within",
+      "fix": "後面接一段時間長度，表示在期限之內完成，用 within。"
+    },
+    {
+      "prompt": "Mr. Lin has managed the account ___ last year.",
+      "choices": ["since", "for", "within"],
+      "answer": "since",
+      "fix": "現在完成式搭配過去的起點 last year，用 since。"
+    }
+  ]
+}
