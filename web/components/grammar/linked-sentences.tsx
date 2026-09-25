@@ -2,6 +2,8 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { Volume2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import { ExampleSentence, collectTokens } from "@/components/vocabulary/example-sentence";
 import { WordPopover, type PopoverAnchor } from "@/components/vocabulary/word-popover";
 import {
@@ -14,6 +16,7 @@ import {
   type GenderId,
 } from "@/hooks/use-speech";
 import { lookupTokens } from "@/lib/api";
+import { sentenceAudioUrl } from "@/lib/grammar";
 import { setStudyWord } from "@/lib/review-handoff";
 import type { LookupEntries, Word } from "@/lib/types";
 
@@ -36,15 +39,20 @@ function savedVoice(): { accent: AccentId; gender: GenderId } {
  */
 export function LinkedSentences({
   sentences,
+  slug,
+  kind,
   ordered = false,
   testId,
 }: {
   sentences: string[];
+  slug: string;
+  kind: "example" | "story";
   ordered?: boolean;
   testId?: string;
 }) {
   const router = useRouter();
-  const { supported, speak } = useSpeech();
+  const { supported, speaking, speak } = useSpeech();
+  const [playing, setPlaying] = useState<number | null>(null);
   const [entries, setEntries] = useState<LookupEntries>({});
   const [picked, setPicked] = useState<{ word: Word; anchor: PopoverAnchor | null } | null>(null);
   const [hoverCapable, setHoverCapable] = useState(false);
@@ -96,21 +104,40 @@ export function LinkedSentences({
   return (
     <>
       <List className="space-y-1" data-testid={testId}>
-        {sentences.map((sentence, index) => (
-          <li key={index} lang="en" className={ordered ? "flex gap-2" : undefined}>
-            {ordered ? (
-              <span aria-hidden className="pt-1 text-xs text-muted-foreground tabular-nums">
-                {index + 1}
-              </span>
-            ) : null}
-            <ExampleSentence
-              sentence={sentence}
-              entries={entries}
-              onPick={pick}
-              onLeave={scheduleClose}
-            />
-          </li>
-        ))}
+        {sentences.map((sentence, index) => {
+          const audioUrl = sentenceAudioUrl(slug, kind, index, sentence);
+          return (
+            <li key={index} lang="en" className="flex items-start gap-1.5">
+              {audioUrl ? (
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  aria-label={`播放第 ${index + 1} 句`}
+                  data-testid={`${testId ?? kind}-speak-${index + 1}`}
+                  className={`size-7 shrink-0 ${speaking && playing === index ? "text-primary" : ""}`}
+                  onClick={() => {
+                    setPlaying(index);
+                    speak(sentence, audioUrl);
+                  }}
+                >
+                  <Volume2 className="size-4" aria-hidden />
+                </Button>
+              ) : null}
+              {ordered ? (
+                <span aria-hidden className="pt-1 text-xs text-muted-foreground tabular-nums">
+                  {index + 1}
+                </span>
+              ) : null}
+              <ExampleSentence
+                sentence={sentence}
+                entries={entries}
+                onPick={pick}
+                onLeave={scheduleClose}
+              />
+            </li>
+          );
+        })}
       </List>
       {picked ? (
         <WordPopover

@@ -75,14 +75,14 @@ export default async function GrammarPatternPage({ params }: PageProps<"/grammar
 
       <Section step={4} title="同句型例句">
         <p className="text-sm text-muted-foreground">結構不變，只換名詞和動詞。字下有虛線的可以點開查。</p>
-        <LinkedSentences sentences={pattern.examples} testId="grammar-examples" />
+        <LinkedSentences sentences={pattern.examples} slug={pattern.slug} kind="example" testId="grammar-examples" />
       </Section>
 
       <Section step={5} title="情境練習">
         <p className="text-sm text-muted-foreground">
           先讀短文，再回答三題。不要在腦中翻成中文，看到題目直接反應。
         </p>
-        <LinkedSentences sentences={pattern.story} ordered testId="grammar-story" />
+        <LinkedSentences sentences={pattern.story} slug={pattern.slug} kind="story" ordered testId="grammar-story" />
         <DrillRunner drills={pattern.drills} />
       </Section>
     </article>

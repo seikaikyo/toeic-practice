@@ -13,6 +13,7 @@ import conjunction from "@/data/grammar/conjunction.json";
 import pronoun from "@/data/grammar/pronoun.json";
 import quantifier from "@/data/grammar/quantifier.json";
 import vocabulary from "@/data/grammar/vocabulary.json";
+import audioManifest from "@/data/grammar-audio.json";
 
 export type GrammarRole = "S" | "V" | "O" | "C" | "M";
 
@@ -88,4 +89,18 @@ export function grammarPattern(slug: string): GrammarPattern | undefined {
 export function patternForCategory(category?: string): GrammarPattern | undefined {
   if (!category) return undefined;
   return PATTERNS.find((p) => p.category === category);
+}
+
+const AUDIO = audioManifest as Record<string, { text: string; voice: string }>;
+
+/** 例句與短文的朗讀，由 scripts/build_grammar_audio.py 產生並記在對照表。
+ *  句子改過但還沒重產時文字對不上，回 null 不出播放鍵，免得播出舊的句子。 */
+export function sentenceAudioUrl(
+  slug: string,
+  kind: "example" | "story",
+  index: number,
+  text: string,
+): string | null {
+  const key = `${slug}/${kind}-${index + 1}`;
+  return AUDIO[key]?.text === text ? `/audio/grammar/${key}.mp3` : null;
 }
