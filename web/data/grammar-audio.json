@@ -1,0 +1,290 @@
+{
+  "comparison/example-1": {
+    "text": "The updated booking system runs much faster than the old platform.",
+    "voice": "en-US-Standard-F"
+  },
+  "comparison/example-2": {
+    "text": "The Busan warehouse operates far more efficiently than the Incheon site.",
+    "voice": "en-US-Standard-F"
+  },
+  "comparison/story-1": {
+    "text": "Daniel is choosing a supplier for 200 new office chairs.",
+    "voice": "en-US-Standard-F"
+  },
+  "comparison/story-2": {
+    "text": "Hartwell's chairs cost slightly more than the chairs from Brightseat.",
+    "voice": "en-US-Standard-F"
+  },
+  "comparison/story-3": {
+    "text": "However, Hartwell delivers much faster than Brightseat, so the chairs would arrive before the office move.",
+    "voice": "en-US-Standard-F"
+  },
+  "comparison/story-4": {
+    "text": "Daniel decided that quick delivery matters more than a small price difference.",
+    "voice": "en-US-Standard-F"
+  },
+  "conjunction/example-1": {
+    "text": "Although the hotel was fully booked, the travel agent found two rooms for us.",
+    "voice": "en-US-Standard-F"
+  },
+  "conjunction/example-2": {
+    "text": "Although the deadline was tight, the design team finished the brochure on schedule.",
+    "voice": "en-US-Standard-F"
+  },
+  "conjunction/story-1": {
+    "text": "Although the train to Taichung was delayed, Kevin arrived before the client meeting started.",
+    "voice": "en-US-Standard-F"
+  },
+  "conjunction/story-2": {
+    "text": "Because the projector did not work, he presented the slides on his laptop.",
+    "voice": "en-US-Standard-F"
+  },
+  "conjunction/story-3": {
+    "text": "The client agreed to sign the contract provided that deliveries begin in March.",
+    "voice": "en-US-Standard-F"
+  },
+  "conjunction/story-4": {
+    "text": "Once the legal team reviews the terms, Kevin will send the final copy.",
+    "voice": "en-US-Standard-F"
+  },
+  "gerund-infinitive/example-1": {
+    "text": "The manager suggested moving the weekly meeting to Thursday afternoon.",
+    "voice": "en-US-Standard-F"
+  },
+  "gerund-infinitive/example-2": {
+    "text": "The board decided to open a second branch office in Singapore.",
+    "voice": "en-US-Standard-F"
+  },
+  "gerund-infinitive/story-1": {
+    "text": "The sales team planned to visit three clients in Seoul next month.",
+    "voice": "en-US-Standard-F"
+  },
+  "gerund-infinitive/story-2": {
+    "text": "Their director suggested booking the flights early to save money.",
+    "voice": "en-US-Standard-F"
+  },
+  "gerund-infinitive/story-3": {
+    "text": "However, the team postponed reserving hotel rooms until the schedule was confirmed.",
+    "voice": "en-US-Standard-F"
+  },
+  "gerund-infinitive/story-4": {
+    "text": "The travel agent encouraged them to buy travel insurance before leaving.",
+    "voice": "en-US-Standard-F"
+  },
+  "passive-voice/example-1": {
+    "text": "The new service contract was signed by both parties on Monday.",
+    "voice": "en-US-Standard-F"
+  },
+  "passive-voice/example-2": {
+    "text": "The damaged printer was returned by the customer last week.",
+    "voice": "en-US-Standard-F"
+  },
+  "passive-voice/story-1": {
+    "text": "Every order at Norland Supplies is packed within 24 hours.",
+    "voice": "en-US-Standard-F"
+  },
+  "passive-voice/story-2": {
+    "text": "Last Thursday, a large order from a hotel chain was shipped by express courier.",
+    "voice": "en-US-Standard-F"
+  },
+  "passive-voice/story-3": {
+    "text": "The next morning, the boxes were delivered to the wrong address.",
+    "voice": "en-US-Standard-F"
+  },
+  "passive-voice/story-4": {
+    "text": "The mistake was fixed by the logistics team, and the hotel received its order that afternoon.",
+    "voice": "en-US-Standard-F"
+  },
+  "preposition/example-1": {
+    "text": "The accounting office will process the invoice within five days.",
+    "voice": "en-US-Standard-F"
+  },
+  "preposition/example-2": {
+    "text": "The vendor must deliver the samples by next Monday.",
+    "voice": "en-US-Standard-F"
+  },
+  "preposition/story-1": {
+    "text": "A client in Taichung ordered 200 office chairs on Monday.",
+    "voice": "en-US-Standard-F"
+  },
+  "preposition/story-2": {
+    "text": "The supplier promised delivery within ten business days.",
+    "voice": "en-US-Standard-F"
+  },
+  "preposition/story-3": {
+    "text": "The purchasing team must approve the payment by Thursday.",
+    "voice": "en-US-Standard-F"
+  },
+  "preposition/story-4": {
+    "text": "Mr. Lin has been responsible for this account since last year.",
+    "voice": "en-US-Standard-F"
+  },
+  "pronoun/example-1": {
+    "text": "The new interns completed their safety training on the first day.",
+    "voice": "en-US-Standard-F"
+  },
+  "pronoun/example-2": {
+    "text": "The company updated its travel policy after the merger.",
+    "voice": "en-US-Standard-F"
+  },
+  "pronoun/story-1": {
+    "text": "The purchasing team reviewed its supplier list last week.",
+    "voice": "en-US-Standard-F"
+  },
+  "pronoun/story-2": {
+    "text": "Mr. Tanaka sent his recommendations to the finance director.",
+    "voice": "en-US-Standard-F"
+  },
+  "pronoun/story-3": {
+    "text": "Five suppliers had raised their prices, so several of them were removed from the list.",
+    "voice": "en-US-Standard-F"
+  },
+  "pronoun/story-4": {
+    "text": "The remaining suppliers will send their revised quotes by Friday.",
+    "voice": "en-US-Standard-F"
+  },
+  "quantifier/example-1": {
+    "text": "Neither of the proposals meets the budget limit for this year.",
+    "voice": "en-US-Standard-F"
+  },
+  "quantifier/example-2": {
+    "text": "One of the printers on the third floor needs a new toner cartridge.",
+    "voice": "en-US-Standard-F"
+  },
+  "quantifier/story-1": {
+    "text": "Ms. Lee received quotes from three hotels for the sales conference in May.",
+    "voice": "en-US-Standard-F"
+  },
+  "quantifier/story-2": {
+    "text": "Neither of the first two hotels has a room large enough for 200 guests.",
+    "voice": "en-US-Standard-F"
+  },
+  "quantifier/story-3": {
+    "text": "Each of the quotes includes breakfast, but only a few offer free parking.",
+    "voice": "en-US-Standard-F"
+  },
+  "quantifier/story-4": {
+    "text": "One of the event planners is visiting the third hotel tomorrow.",
+    "voice": "en-US-Standard-F"
+  },
+  "relative-clause/example-1": {
+    "text": "The consultant who reviewed our contracts will present the findings on Friday.",
+    "voice": "en-US-Standard-F"
+  },
+  "relative-clause/example-2": {
+    "text": "The assistant who arranged the flights will send the itinerary tomorrow.",
+    "voice": "en-US-Standard-F"
+  },
+  "relative-clause/story-1": {
+    "text": "A customer whose package arrived damaged called the support center on Monday.",
+    "voice": "en-US-Standard-F"
+  },
+  "relative-clause/story-2": {
+    "text": "The agent who took the call offered a full refund right away.",
+    "voice": "en-US-Standard-F"
+  },
+  "relative-clause/story-3": {
+    "text": "She also shipped a replacement from the warehouse where the company keeps its spare stock.",
+    "voice": "en-US-Standard-F"
+  },
+  "relative-clause/story-4": {
+    "text": "The next day, the customer posted a review that praised the quick response.",
+    "voice": "en-US-Standard-F"
+  },
+  "subjunctive/example-1": {
+    "text": "The director recommends that each department submit its budget by June.",
+    "voice": "en-US-Standard-F"
+  },
+  "subjunctive/example-2": {
+    "text": "The client insisted that the supplier replace the damaged parts.",
+    "voice": "en-US-Standard-F"
+  },
+  "subjunctive/story-1": {
+    "text": "The HR manager reviewed the company's hiring process last week.",
+    "voice": "en-US-Standard-F"
+  },
+  "subjunctive/story-2": {
+    "text": "She recommended that every candidate complete a short writing test.",
+    "voice": "en-US-Standard-F"
+  },
+  "subjunctive/story-3": {
+    "text": "The CEO also insisted that the team not schedule interviews on Fridays.",
+    "voice": "en-US-Standard-F"
+  },
+  "subjunctive/story-4": {
+    "text": "If the company had used this process last year, it would have avoided several costly hiring mistakes.",
+    "voice": "en-US-Standard-F"
+  },
+  "verb-tense/example-1": {
+    "text": "By the time the auditors arrived, the accounting team had already closed the books for the quarter.",
+    "voice": "en-US-Standard-F"
+  },
+  "verb-tense/example-2": {
+    "text": "By the time the shipment reached the port, the customer had canceled half of the order.",
+    "voice": "en-US-Standard-F"
+  },
+  "verb-tense/story-1": {
+    "text": "Mina flew to Osaka for a trade show last Monday.",
+    "voice": "en-US-Standard-F"
+  },
+  "verb-tense/story-2": {
+    "text": "By the time her flight landed, the exhibition hall had already opened.",
+    "voice": "en-US-Standard-F"
+  },
+  "verb-tense/story-3": {
+    "text": "Her colleague had set up the booth the night before.",
+    "voice": "en-US-Standard-F"
+  },
+  "verb-tense/story-4": {
+    "text": "By the time Mina reached the booth, three clients had left their business cards.",
+    "voice": "en-US-Standard-F"
+  },
+  "vocabulary/example-1": {
+    "text": "The director gave constructive comments on the hiring plan.",
+    "voice": "en-US-Standard-F"
+  },
+  "vocabulary/example-2": {
+    "text": "The marketing team conducted a customer survey on the new packaging.",
+    "voice": "en-US-Standard-F"
+  },
+  "vocabulary/story-1": {
+    "text": "Our office conducted a short survey on the new room booking system.",
+    "voice": "en-US-Standard-F"
+  },
+  "vocabulary/story-2": {
+    "text": "Most employees gave constructive feedback about its design.",
+    "voice": "en-US-Standard-F"
+  },
+  "vocabulary/story-3": {
+    "text": "However, access to the system is still restricted to managers.",
+    "voice": "en-US-Standard-F"
+  },
+  "vocabulary/story-4": {
+    "text": "The IT department agreed to extend the trial period until June.",
+    "voice": "en-US-Standard-F"
+  },
+  "word-form/example-1": {
+    "text": "The overseas supplier replied promptly to our price inquiry.",
+    "voice": "en-US-Standard-F"
+  },
+  "word-form/example-2": {
+    "text": "The temporary receptionist greeted the visitors politely during the conference.",
+    "voice": "en-US-Standard-F"
+  },
+  "word-form/story-1": {
+    "text": "Ms. Chen's department received an urgent complaint on Tuesday morning.",
+    "voice": "en-US-Standard-F"
+  },
+  "word-form/story-2": {
+    "text": "The new assistant answered the customer immediately.",
+    "voice": "en-US-Standard-F"
+  },
+  "word-form/story-3": {
+    "text": "Her careful explanation of the refund policy was very helpful.",
+    "voice": "en-US-Standard-F"
+  },
+  "word-form/story-4": {
+    "text": "The next day, the satisfied customer thanked the whole team warmly.",
+    "voice": "en-US-Standard-F"
+  }
+}

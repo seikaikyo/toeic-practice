@@ -86,7 +86,7 @@ Part 5 目前 80 題，答完只看得到一段英文解析（`backend/data/ques
 - `web/components/quiz/feedback-panel.tsx`：解析下方加「看這個句型」，連到該分類頁；沒有分類或分類不在清單內就不顯示
 - 例句與短文的單字可點，沿用 `example-sentence.tsx` 的 `ExampleSentence` 與 `lookupTokens`，點了用 `setStudyWord` 跳到背單字頁第一張
 - `scripts/check_grammar.py`：內容檢查腳本
-- 點字小卡的發音鍵沿用背單字已產好的單字音檔（`audioUrlFor`），口音與聲音讀背單字頁存在瀏覽器的設定。整句朗讀目前沒有音檔，另案處理
+- 點字小卡的發音鍵沿用背單字已產好的單字音檔（`audioUrlFor`），口音與聲音讀背單字頁存在瀏覽器的設定。整句朗讀：例句與短文 72 句（4,994 字元）由 `scripts/build_grammar_audio.py` 產生，放 `web/public/audio/grammar/<slug>/<example|story>-<n>.mp3` 隨前端出貨，對照表 `web/data/grammar-audio.json` 記每句的文字與聲音，文字對不上就不出播放鍵。9 月 Neural2 額度已用完，先用 en-US-Standard-F（標準音每月 400 萬字元免費）；10 月 1 日台灣 16:00 後跑 `--voice neural2` 換成跟背單字例句同一個聲音，腳本時間未到會拒絕
 
 ## 內容檢查（`scripts/check_grammar.py`）
 
@@ -115,7 +115,7 @@ Part 5 目前 80 題，答完只看得到一段英文解析（`backend/data/ques
 2. `/grammar` 列出 12 個分類，各自連得到分類頁；`next build` 輸出 12 頁預先產生
 3. 分類頁五個區塊依序出現；結構拆解每段都有角色文字
 4. 情境練習：3 秒不答算未答並顯示正解；關閉倒數後可以慢慢答；重新整理後倒數設定保留
-5. 短文與例句的字點了跳到背單字頁，第一張是那個字；小卡的發音鍵播的是單字音檔，不是瀏覽器語音
+5. 短文與例句的字點了跳到背單字頁，第一張是那個字；小卡的發音鍵播的是單字音檔，不是瀏覽器語音；每句例句與短文前有播放鍵，播的是對應的 mp3
 6. 練習題答完，解析下方的「看這個句型」連到對應分類；模擬考作答途中不出現
 7. 手機 375 寬：導覽列不折行、對照表不橫向捲動
 8. 鍵盤可以完成整個情境練習
