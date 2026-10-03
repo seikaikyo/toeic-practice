@@ -1,7 +1,7 @@
 ---
 title: Part 1 看圖題（照片與題目先上，語音 10 月補）
 type: feature
-status: proposed
+status: done
 created: 2026-09-23
 ---
 
@@ -34,7 +34,7 @@ Openverse，只取 CC0（不必標註、可商用）。Unsplash 被它的反機�
 
 1. 台灣時間 10 月 1 日 16:00 以後，跑 `python3 scripts/build_part1_audio.py`（時間未到腳本會拒絕）
 2. commit 產出的音檔
-3. Vercel 設 `NEXT_PUBLIC_PART1_READY=1` 並重新部署
+3. 拿掉 `NEXT_PUBLIC_PART1_READY` 的判斷直接開放（2026-10-03：本機 Vercel 憑證失效設不了環境變數，改在程式裡開）
 
 ## 測試計畫
 
@@ -48,9 +48,9 @@ Openverse，只取 CC0（不必標註、可商用）。Unsplash 被它的反機�
 
 ## Checklist
 
-- [ ] 照片與授權
-- [ ] 題目與檢查
-- [ ] 後端
-- [ ] 畫面與播放
-- [ ] 10 月語音腳本
-- [ ] 10 月上線
+- [x] 照片與授權
+- [x] 題目與檢查
+- [x] 後端
+- [x] 畫面與播放
+- [x] 10 月語音腳本
+- [x] 10 月上線

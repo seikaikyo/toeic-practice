@@ -6,19 +6,12 @@ import { Part1Runner } from "@/components/listening/part1-runner";
 import { Part2Runner } from "@/components/listening/part2-runner";
 import { Part3Runner } from "@/components/listening/part3-runner";
 
-// Part 1 的照片與題目已經上架，但描述的語音要等 10 月語音額度重置後才合成。
-// 語音備妥之前不露出這個分頁，免得點進去每題都是載入失敗。
-// 上線步驟：跑 scripts/build_part1_audio.py，再把這裡改成 true。
-const PART1_READY = process.env.NEXT_PUBLIC_PART1_READY === "1";
-
-const ALL_PARTS = [
+const PARTS = [
   { id: "1", label: "Part 1 看圖" },
   { id: "2", label: "Part 2 應答問題" },
   { id: "3", label: "Part 3 對話" },
   { id: "4", label: "Part 4 短講" },
 ] as const;
-
-const PARTS = ALL_PARTS.filter((p) => p.id !== "1" || PART1_READY);
 
 export default function ListeningPage() {
   const [part, setPart] = useState<"1" | "2" | "3" | "4">("2");
