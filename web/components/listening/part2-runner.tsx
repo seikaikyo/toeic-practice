@@ -211,11 +211,11 @@ export function Part2Runner() {
                 </div>
                 <p className="font-medium">{review.prompt}</p>
                 <ul className="space-y-1 text-sm">
-                  {(orders[review.id] ?? [1, 2, 3]).map((response, slot) => {
-                    // 照這一輪實際播出的順序列，字母也是當時唸的那個。
-                    const option = review.options[response - 1];
-                    if (!option) return null;
-                    const shown = "ABC"[slot];
+                  {review.options.map((option, original) => {
+                    // 解析裡的字母是原題的代號，所以檢討照原題順序列；
+                    // 播放時是打亂的，另外標出當時唸的字母，對得回自己按的位置。
+                    const order = orders[review.id] ?? [1, 2, 3];
+                    const heard = "ABC"[order.indexOf(original + 1)];
                     return (
                       <li
                         key={option.label}
@@ -227,9 +227,12 @@ export function Part2Runner() {
                               : "text-muted-foreground"
                         }
                       >
-                        {shown}. {option.text}
+                        {option.label}. {option.text}
                         {option.label === review.answer ? "（正解）" : null}
                         {option.label === picked && !right ? "（你選的）" : null}
+                        {heard && heard !== option.label ? (
+                          <span className="ml-1 text-xs font-normal text-muted-foreground">播放時是 {heard}</span>
+                        ) : null}
                       </li>
                     );
                   })}

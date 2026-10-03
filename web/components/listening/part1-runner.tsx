@@ -199,9 +199,10 @@ export function Part1Runner() {
                   loading="lazy"
                 />
                 <ul className="space-y-1 text-sm" data-testid="photo-review">
-                  {order.map((statement, slot) => {
-                    const item = review.statements[statement - 1];
-                    if (!item) return null;
+                  {review.statements.map((item, original) => {
+                    // 解析裡的字母是原題的代號，所以檢討照原題順序列；
+                    // 播放時是打亂的，另外標出當時唸的字母，對得回自己按的位置。
+                    const heard = LABELS[order.indexOf(original + 1)];
                     return (
                       <li
                         key={item.label}
@@ -213,9 +214,12 @@ export function Part1Runner() {
                               : "text-muted-foreground"
                         }
                       >
-                        {LABELS[slot]}. {item.text}
+                        {item.label}. {item.text}
                         {item.label === review.answer ? "（正解）" : null}
                         {item.label === picked && !right ? "（你選的）" : null}
+                        {heard && heard !== item.label ? (
+                          <span className="ml-1 text-xs font-normal text-muted-foreground">播放時是 {heard}</span>
+                        ) : null}
                       </li>
                     );
                   })}
