@@ -11,10 +11,6 @@ import { errorMessage, searchAll } from "@/lib/api";
 import { setStudyWord } from "@/lib/review-handoff";
 import type { SearchResult } from "@/lib/types";
 
-// Part 1 語音備妥前聽力頁不露出，搜尋也不帶，免得搜到練不到的題目。
-const PART1_READY = process.env.NEXT_PUBLIC_PART1_READY === "1";
-const PARTS = PART1_READY ? undefined : ["2", "3", "4", "5", "6", "7"];
-
 export default function SearchPage() {
   return (
     <Suspense fallback={<LoadingBlock label="載入中" />}>
@@ -47,7 +43,7 @@ function SearchView() {
       setIsLoading(true);
       setError("");
     });
-    searchAll(query, PARTS)
+    searchAll(query)
       .then((data) => {
         if (!cancelled) setResult(data);
       })
