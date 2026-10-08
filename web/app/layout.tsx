@@ -16,6 +16,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="zh-Hant-TW"
+      // 瀏覽器自動翻譯會改寫文字節點，React 卸載時 removeChild 找不到原節點而崩潰（TOEIC-PRACTICE-4）；
+      // 題目本身是英文，被翻掉也失去練習意義
+      translate="no"
       className="h-full antialiased"
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
