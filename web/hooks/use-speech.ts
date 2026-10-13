@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 
 /* 單字發音。
  *
@@ -90,15 +90,19 @@ function pickVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | null 
   return english.find((v) => v.lang === "en-US") ?? english[0];
 }
 
+// 裝置有沒有語音引擎不會在頁面開著時改變，所以不用訂閱；伺服器端一律當作沒有。
+const noopSubscribe = () => () => {};
+const hasSynth = () => "speechSynthesis" in window;
+const noSynthOnServer = () => false;
+
 export function useSpeech() {
   const [speaking, setSpeaking] = useState(false);
   const voiceRef = useRef<SpeechSynthesisVoice | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const synthAvailable = useRef(false);
+  const synthAvailable = useSyncExternalStore(noopSubscribe, hasSynth, noSynthOnServer);
 
   useEffect(() => {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    synthAvailable.current = true;
 
     // getVoices 在 Chrome 第一次呼叫可能是空的，要等 voiceschanged。
     const load = () => {
@@ -205,7 +209,7 @@ export function useSpeech() {
   );
 
   // 有音檔就一定播得出來，沒有音檔才取決於裝置有沒有語音引擎。
-  const supported = Boolean(AUDIO_BASE) || synthAvailable.current;
+  const supported = Boolean(AUDIO_BASE) || synthAvailable;
 
   return { supported, speaking, speak, stop };
 }

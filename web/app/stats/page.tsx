@@ -58,7 +58,8 @@ export default function StatsPage() {
   }, []);
 
   useEffect(() => {
-    void load();
+    // React 19 的 react-hooks/set-state-in-effect：包 microtask 避免 cascading render
+    queueMicrotask(() => void load());
   }, [load]);
 
   if (isLoading) return <LoadingBlock label="正在載入統計" />;
