@@ -71,7 +71,8 @@ export function Part3Runner({ part = "3" }: { part?: "3" | "4" }) {
   }, [part, copy.unit]);
 
   useEffect(() => {
-    void load();
+    // React 19 的 react-hooks/set-state-in-effect：包 microtask 避免 cascading render
+    queueMicrotask(() => void load());
     return () => {
       audioRef.current?.pause();
       audioRef.current = null;

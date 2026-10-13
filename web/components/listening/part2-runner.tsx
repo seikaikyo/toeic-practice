@@ -73,7 +73,8 @@ export function Part2Runner() {
   }, []);
 
   useEffect(() => {
-    void load();
+    // React 19 的 react-hooks/set-state-in-effect：包 microtask 避免 cascading render
+    queueMicrotask(() => void load());
     return () => {
       sequenceRef.current?.stop();
       sequenceRef.current = null;

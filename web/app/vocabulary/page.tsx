@@ -86,21 +86,27 @@ export default function VocabularyPage() {
 
   // 自動發音的偏好記在這台裝置上。讀取可能因為隱私模式而失敗，失敗就用預設值。
   useEffect(() => {
+    let saved: string | null = null;
+    let savedAccent: string | null = null;
+    let savedGender: string | null = null;
     try {
-      const saved = window.localStorage.getItem("toeic:auto-speak");
+      saved = window.localStorage.getItem("toeic:auto-speak");
+      savedAccent = window.localStorage.getItem("toeic:accent");
+      savedGender = window.localStorage.getItem("toeic:gender");
+    } catch {
+      // 讀不到就維持預設
+    }
+    // React 19 的 react-hooks/set-state-in-effect：包 microtask 避免 cascading render
+    queueMicrotask(() => {
       if (saved !== null) setAutoSpeak(saved === "1");
-      const savedAccent = window.localStorage.getItem("toeic:accent");
       if (savedAccent === "us" || savedAccent === "gb" || savedAccent === "au") {
         setAccent(savedAccent);
       }
-      const savedGender = window.localStorage.getItem("toeic:gender");
       // 男聲音檔撤掉之後，之前存過 m 的裝置要退回女聲，不然會去要一個不存在的檔。
       if (savedGender === "f" || (savedGender === "m" && MALE_READY)) {
         setGender(savedGender);
       }
-    } catch {
-      // 讀不到就維持預設
-    }
+    });
   }, []);
 
   const changeAccent = useCallback((next: AccentId) => {
@@ -135,7 +141,9 @@ export default function VocabularyPage() {
 
   // 篩選條件在輸入時不該觸發重抽，抽卡時才讀取當下的值
   const filterRef = useRef({ list, bandMin, bandMax, level, count, bookmarkOnly });
-  filterRef.current = { list, bandMin, bandMax, level, count, bookmarkOnly };
+  useEffect(() => {
+    filterRef.current = { list, bandMin, bandMax, level, count, bookmarkOnly };
+  });
 
   const load = useCallback(async (override?: { bookmarkOnly?: boolean; level?: string }, lead?: Word) => {
     const filter = { ...filterRef.current, ...override };
@@ -171,22 +179,27 @@ export default function VocabularyPage() {
   useEffect(() => {
     const lead = takeStudyWord<Word>();
     if (lead) {
-      void load(undefined, lead);
+      // React 19 的 react-hooks/set-state-in-effect：包 microtask 避免 cascading render
+      queueMicrotask(() => void load(undefined, lead));
       return;
     }
     const filter = takeReviewFilter();
     if (filter) {
-      queueMicrotask(() => setLevel(filter));
-      void load({ level: filter });
+      queueMicrotask(() => {
+        setLevel(filter);
+        void load({ level: filter });
+      });
       return;
     }
     if (takeReviewFlag()) {
       // React 19 的 react-hooks/set-state-in-effect：包 microtask 避免 cascading render
-      queueMicrotask(() => setBookmarkOnly(true));
-      void load({ bookmarkOnly: true });
+      queueMicrotask(() => {
+        setBookmarkOnly(true);
+        void load({ bookmarkOnly: true });
+      });
       return;
     }
-    void load();
+    queueMicrotask(() => void load());
   }, [load]);
 
   async function rate(wordId: string, wordLevel: WordLevel) {
