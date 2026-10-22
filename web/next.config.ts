@@ -17,4 +17,8 @@ export default withSentryConfig(nextConfig, {
 
   // Sentry 的自動檢測路由會經過 /monitoring，擋廣告的擴充套件不會擋掉它。
   tunnelRoute: "/monitoring",
+
+  // 幫自己打包的程式碼做記號，instrumentation-client.ts 的
+  // thirdPartyErrorFilterIntegration 靠它認出瀏覽器擴充套件注入的程式。
+  applicationKey: "toeic-practice",
 });

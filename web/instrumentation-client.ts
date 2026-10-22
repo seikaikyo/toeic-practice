@@ -15,6 +15,16 @@ Sentry.init({
 
   tracesSampleRate: 0.2,
 
+  integrations: [
+    // 堆疊裡沒有任何一層是自己的程式碼就丟掉。訪客瀏覽器注入的程式
+    // （例如 executors/200.js 讀 M_ID 失敗，網站上根本沒有這支檔）
+    // 不是應用程式的錯誤。記號由 next.config.ts 的 applicationKey 打上。
+    Sentry.thirdPartyErrorFilterIntegration({
+      filterKeys: ["toeic-practice"],
+      behaviour: "drop-error-if-exclusively-contains-third-party-frames",
+    }),
+  ],
+
   beforeSend(event, hint) {
     // 微軟 Office 系瀏覽器擴充套件注入頁面產生的雜訊，不是應用程式的錯誤。
     // 每個裝了那個套件的訪客都會產生一筆，會讓部署後查 is:unresolved 失效。
