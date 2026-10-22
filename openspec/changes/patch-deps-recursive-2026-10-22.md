@@ -22,7 +22,7 @@ backend/requirements.txt 只釘頂層套件，間接相依沒釘版。2026-10-22
 
 ## 剩餘風險
 
-starlette 鎖在 0.46.2，仍有 14 筆已知漏洞。fastapi 0.115.12 限制 starlette 低於 0.47.0，要消掉這些漏洞得升 fastapi 頂層版本，不在這次鎖定範圍內。
+無。原本鎖出的 starlette 0.46.2 有 14 筆已知漏洞（fastapi 0.115.12 限制 starlette 低於 0.47.0），追加變更把 fastapi 升到 0.135.2、starlette 釘在 1.6.0（與 nicegarden-api、jlpt-n1-learner 相同組合），重編後 17 個套件以鎖定版本查詢皆無已知漏洞，import app.main 註冊 15 條路由與修補前相同。
 
 ## UI 規格
 
