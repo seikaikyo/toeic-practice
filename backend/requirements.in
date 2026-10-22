@@ -1,0 +1,5 @@
+# 頂層相依寫在這裡，改完執行 uv pip compile requirements.in --universal --python-version 3.12 --generate-hashes -o requirements.txt
+fastapi==0.115.12
+uvicorn==0.34.2
+sqlmodel==0.0.24
+python-dotenv==1.2.2
